@@ -1,0 +1,449 @@
+{"level":"info","message":"Starting apps...","timestamp":"2019-04-23T03:59:49.446Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-06T02:41:49.995Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [06/May/2019:02:43:05 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-06T02:43:05.084Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [06/May/2019:02:43:05 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:81/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-06T02:43:05.127Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [06/May/2019:02:44:02 +0000] \"GET /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-06T02:44:02.072Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [06/May/2019:02:46:45 +0000] \"GET /v1/user/login HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-06T02:46:45.390Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-06T02:54:38.562Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-06T02:54:46.400Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-06T02:54:46.845Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-06T02:55:55.424Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-06T02:56:30.451Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-06T02:58:03.295Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-06T02:58:47.151Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-06T02:58:47.594Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-06T03:03:49.004Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-06T03:04:59.314Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-06T03:05:00.316Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-06T03:05:00.835Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-06T03:05:33.877Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-06T03:41:15.377Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-06T03:41:23.555Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-06T03:42:32.905Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-06T03:42:38.899Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-06T03:42:49.886Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-06T03:43:50.966Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-06T03:44:42.535Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-06T03:44:43.011Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-06T03:44:43.537Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-06T03:44:44.337Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-07T01:20:46.406Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-07T01:22:18.031Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-07T01:24:22.172Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-07T04:34:19.580Z"}
+{"level":"info","message":"","timestamp":"2019-05-07T04:35:14.968Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [07/May/2019:04:35:14 +0000] \"GET /api/contact/send HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-07T04:35:14.974Z"}
+{"level":"info","message":"","timestamp":"2019-05-07T12:01:11.087Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [07/May/2019:12:01:11 +0000] \"GET /api/contact/send HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-07T12:01:11.088Z"}
+{"level":"info","message":"","timestamp":"2019-05-07T12:01:11.475Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [07/May/2019:12:01:11 +0000] \"GET /api/contact/send HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-07T12:01:11.475Z"}
+{"level":"info","message":"","timestamp":"2019-05-07T12:01:11.603Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [07/May/2019:12:01:11 +0000] \"GET /api/contact/send HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-07T12:01:11.603Z"}
+{"level":"info","message":"","timestamp":"2019-05-07T12:01:11.876Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [07/May/2019:12:01:11 +0000] \"GET /api/contact/send HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-07T12:01:11.877Z"}
+{"level":"info","message":"","timestamp":"2019-05-07T12:01:12.002Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [07/May/2019:12:01:12 +0000] \"GET /api/contact/send HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-07T12:01:12.003Z"}
+{"level":"info","message":"","timestamp":"2019-05-07T12:01:12.147Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [07/May/2019:12:01:12 +0000] \"GET /api/contact/send HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-07T12:01:12.149Z"}
+{"level":"info","message":"","timestamp":"2019-05-07T12:01:12.299Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [07/May/2019:12:01:12 +0000] \"GET /api/contact/send HTTP/1.1\" 304 - \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-07T12:01:12.300Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-07T12:01:43.756Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-07T12:01:49.012Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-07T12:20:19.335Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-07T12:20:19.846Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-07T12:20:20.342Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-07T12:20:20.839Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T13:27:38.831Z"}
+{"level":"info","message":"","timestamp":"2019-05-12T13:29:32.296Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:13:29:32 +0000] \"GET /api/contact/send HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T13:29:32.301Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:13:29:32 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:81/api/contact/send\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T13:29:32.354Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:13:30:30 +0000] \"POST /v1/user/login HTTP/1.1\" 500 - \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T13:30:30.833Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T13:34:17.565Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T13:34:29.256Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:13:34:33 +0000] \"POST /v1/user/login HTTP/1.1\" 500 - \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T13:34:33.089Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:13:34:34 +0000] \"POST /v1/user/login HTTP/1.1\" 500 - \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T13:34:34.684Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:13:34:35 +0000] \"POST /v1/user/login HTTP/1.1\" 500 - \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T13:34:35.255Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:13:35:40 +0000] \"POST /v1/user/login HTTP/1.1\" 500 - \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T13:35:40.730Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T13:36:52.441Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:13:36:56 +0000] \"POST /v1/user/login HTTP/1.1\" 500 - \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T13:36:56.990Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:13:37:06 +0000] \"POST /v1/user/login HTTP/1.1\" 500 - \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T13:37:06.788Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:13:37:08 +0000] \"POST /v1/user/login HTTP/1.1\" 500 - \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T13:37:08.720Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T13:45:04.093Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:13:45:08 +0000] \"POST /v1/user/login HTTP/1.1\" 500 - \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T13:45:08.535Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:13:45:19 +0000] \"POST /v1/user/login HTTP/1.1\" 500 - \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T13:45:19.120Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T13:45:35.164Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T13:45:37.454Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:13:46:23 +0000] \"POST /v1/user/login HTTP/1.1\" 500 - \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T13:46:23.451Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T13:59:55.476Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T14:09:18.433Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T14:10:25.795Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T14:12:53.420Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T14:12:53.929Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T14:12:54.416Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T14:15:53.905Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T14:21:03.299Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T14:21:03.794Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T14:21:52.108Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-12T14:23:12.673Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:14:23:12 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T14:23:12.951Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T14:23:52.253Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-12T14:23:55.985Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:14:23:56 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T14:23:56.030Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:14:23:56 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T14:23:56.578Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:14:23:57 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T14:23:57.194Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T14:24:32.833Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-12T14:24:40.363Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:14:24:40 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T14:24:40.407Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:14:25:20 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T14:25:20.955Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:14:25:22 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T14:25:22.513Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:14:25:23 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T14:25:23.130Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:14:25:23 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T14:25:23.665Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:14:25:24 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T14:25:24.983Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:14:25:48 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T14:25:48.624Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:14:26:51 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T14:26:51.008Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:14:27:27 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T14:27:27.866Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:14:27:29 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T14:27:29.005Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:14:27:29 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T14:27:29.520Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:14:27:29 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T14:27:29.685Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:14:27:29 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T14:27:29.839Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:14:27:30 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T14:27:30.008Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:14:29:26 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T14:29:26.993Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:14:29:31 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T14:29:31.953Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T14:29:42.910Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T14:29:54.968Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T14:32:35.373Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T14:36:40.470Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T14:36:55.471Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T14:37:01.729Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T14:37:27.015Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T14:37:45.056Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T14:38:02.307Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T14:38:35.860Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T14:39:02.373Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T14:39:25.427Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T14:39:46.206Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T14:39:56.196Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-12T14:40:02.293Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:14:40:02 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T14:40:02.336Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:14:40:04 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T14:40:04.681Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:15:00:14 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T15:00:14.729Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:15:00:15 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T15:00:15.489Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:15:00:16 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T15:00:16.515Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:15:00:17 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T15:00:17.771Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:15:00:18 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T15:00:18.498Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:15:00:21 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T15:00:21.145Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:01:46.088Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-12T15:01:51.959Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:15:01:52 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T15:01:52.005Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:15:02:01 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T15:02:01.688Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:15:02:03 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T15:02:03.256Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:02:19.595Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:02:30.355Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-12T15:02:38.726Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:15:02:38 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T15:02:38.777Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:02:54.616Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-12T15:03:01.162Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:15:03:01 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T15:03:01.209Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:03:24.921Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-12T15:03:30.679Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:15:03:30 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T15:03:30.725Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:09:30.652Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:09:33.643Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:09:58.692Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:10:13.485Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-12T15:10:20.489Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:15:10:20 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T15:10:20.533Z"}
+{"level":"info","message":"","timestamp":"2019-05-12T15:10:20.569Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:10:28.233Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:10:28.766Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-12T15:10:34.137Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:15:10:34 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T15:10:34.184Z"}
+{"level":"info","message":"","timestamp":"2019-05-12T15:10:34.221Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:11:11.593Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:11:17.056Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-12T15:11:20.538Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:15:11:20 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T15:11:20.583Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:11:41.627Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-12T15:11:48.680Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:15:11:48 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T15:11:48.729Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:12:09.150Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:13:08.735Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-12T15:13:15.625Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:15:13:15 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T15:13:15.669Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:13:36.503Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-12T15:13:41.696Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:15:13:41 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T15:13:41.744Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:13:50.551Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:14:31.629Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:15:45.743Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:16:32.257Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:16:32.672Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-12T15:17:28.721Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:15:17:28 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T15:17:28.770Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:15:17:57 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T15:17:57.576Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:15:18:06 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T15:18:06.504Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:18:15.259Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-12T15:18:19.768Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:15:18:19 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T15:18:19.813Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:18:30.552Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-12T15:18:35.599Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:15:18:35 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T15:18:35.643Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:19:30.438Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-12T15:19:34.447Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:15:19:34 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T15:19:34.502Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:20:05.222Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-12T15:20:13.004Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:15:20:13 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T15:20:13.049Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:20:27.477Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:34:16.241Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:34:16.741Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-12T15:34:24.301Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:15:34:24 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T15:34:24.346Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:34:44.272Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-12T15:34:49.718Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:15:34:49 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T15:34:49.765Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:15:36:19 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T15:36:19.293Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:15:37:21 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T15:37:21.417Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:38:56.324Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:46:31.103Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:46:46.384Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-12T15:46:57.831Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:15:46:57 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T15:46:57.883Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:47:13.410Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:47:21.438Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:47:39.466Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:47:39.954Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-12T15:47:47.108Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:15:47:47 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T15:47:47.154Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:47:58.483Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:48:29.807Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:48:36.801Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-12T15:48:42.734Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:15:48:42 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T15:48:42.781Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:49:43.664Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-12T15:49:49.608Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:15:49:49 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T15:49:49.660Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:15:49:51 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T15:49:51.124Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:51:32.754Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:51:42.279Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-12T15:51:50.464Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:15:51:50 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T15:51:50.514Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:55:56.374Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-12T15:56:28.651Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:15:56:28 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T15:56:28.700Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:56:41.887Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-12T15:56:44.240Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:15:56:44 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T15:56:44.285Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T15:59:58.385Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-12T16:00:05.565Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:16:00:05 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T16:00:05.611Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T16:00:16.644Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-12T16:00:22.655Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:16:00:22 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T16:00:22.702Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T16:01:55.999Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T16:01:56.750Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T16:02:08.519Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T16:02:24.277Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T16:02:56.063Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-12T16:03:05.242Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:16:03:05 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T16:03:05.291Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [12/May/2019:16:05:18 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-12T16:05:18.482Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-12T17:11:30.100Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-13T00:13:20.077Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-13T00:13:23.603Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [13/May/2019:00:13:23 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-13T00:13:23.647Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [13/May/2019:00:13:36 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-13T00:13:36.743Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-13T00:14:09.095Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-13T00:14:12.793Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [13/May/2019:00:14:12 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-13T00:14:12.838Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-13T00:14:21.131Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-13T00:14:26.908Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [13/May/2019:00:14:26 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-13T00:14:26.954Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-13T00:14:33.919Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-13T00:14:43.218Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-13T00:14:47.921Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [13/May/2019:00:14:47 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-13T00:14:47.967Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-13T00:21:09.444Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-13T00:21:16.400Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [13/May/2019:00:21:16 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-13T00:21:16.445Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-13T00:21:24.199Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-13T00:21:32.705Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-13T00:21:35.167Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [13/May/2019:00:21:35 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-13T00:21:35.212Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-13T00:21:47.250Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-13T00:22:13.565Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-13T00:22:25.051Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-13T00:22:27.087Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [13/May/2019:00:22:27 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-13T00:22:27.132Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [13/May/2019:00:22:37 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-13T00:22:37.850Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-13T00:23:22.423Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-13T00:23:26.575Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [13/May/2019:00:23:26 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-13T00:23:26.623Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-13T00:25:12.253Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-13T00:30:45.394Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-13T00:31:41.219Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-13T00:41:37.927Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [13/May/2019:00:41:37 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-13T00:41:37.976Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-13T00:42:46.805Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-13T00:44:43.157Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-13T00:44:49.243Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [13/May/2019:00:44:49 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-13T00:44:49.290Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-13T00:45:38.022Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-13T00:45:39.811Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [13/May/2019:00:45:39 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-13T00:45:39.860Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T01:33:41.923Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-15T01:33:50.426Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [15/May/2019:01:33:50 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-15T01:33:50.705Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T01:36:03.352Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-15T01:36:37.177Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [15/May/2019:01:36:37 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-15T01:36:37.227Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T01:37:27.959Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T01:37:34.455Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-15T01:37:38.793Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [15/May/2019:01:37:38 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-15T01:37:38.843Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T01:38:40.806Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-15T01:38:45.761Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [15/May/2019:01:38:45 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-15T01:38:45.807Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T01:39:25.097Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T01:39:31.108Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-15T01:39:36.317Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [15/May/2019:01:39:36 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-15T01:39:36.362Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T01:41:00.716Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T01:43:34.904Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-15T01:43:53.897Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [15/May/2019:01:43:53 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-15T01:43:53.952Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T01:44:54.990Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T01:55:54.782Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T01:56:24.580Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-15T01:56:32.431Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [15/May/2019:01:56:32 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-15T01:56:32.476Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T01:57:27.635Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T01:59:14.771Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T01:59:18.788Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-15T01:59:32.322Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [15/May/2019:01:59:32 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-15T01:59:32.370Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T02:00:05.623Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T02:00:12.372Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T02:00:12.867Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T02:00:24.639Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-15T02:00:28.840Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [15/May/2019:02:00:28 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-15T02:00:28.887Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T02:01:15.250Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T02:01:21.998Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T02:01:36.267Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [15/May/2019:02:01:44 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-15T02:01:44.070Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T02:02:10.126Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [15/May/2019:02:02:19 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-15T02:02:19.750Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T02:02:30.584Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [15/May/2019:02:02:33 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-15T02:02:33.858Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T02:02:43.124Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [15/May/2019:02:02:47 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-15T02:02:47.418Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T02:03:13.168Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T02:03:25.204Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T02:05:36.357Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T02:06:43.444Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T02:08:55.078Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T02:12:06.295Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T02:17:18.178Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-15T02:17:37.060Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [15/May/2019:02:17:37 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-15T02:17:37.109Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T02:18:08.724Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-15T02:18:13.689Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [15/May/2019:02:18:13 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-15T02:18:13.736Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T02:19:18.537Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T02:19:26.351Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-15T02:19:28.053Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [15/May/2019:02:19:28 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-15T02:19:28.099Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T02:19:55.908Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T02:20:00.401Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-15T02:20:06.593Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [15/May/2019:02:20:06 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-15T02:20:06.636Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [15/May/2019:02:20:28 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-15T02:20:28.381Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T02:20:49.205Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-15T02:20:55.229Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [15/May/2019:02:20:55 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-15T02:20:55.273Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T02:21:07.477Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T02:21:10.728Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T02:21:23.983Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T02:21:24.758Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T02:21:33.276Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T02:21:36.781Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-15T02:21:40.351Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [15/May/2019:02:21:40 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-15T02:21:40.395Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [15/May/2019:02:22:00 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-15T02:22:00.230Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T02:22:21.576Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-15T02:22:27.395Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [15/May/2019:02:22:27 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-15T02:22:27.439Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T02:22:45.852Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-15T02:22:49.901Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [15/May/2019:02:22:49 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-15T02:22:49.949Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T03:09:29.042Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T03:17:14.883Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T03:17:22.376Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T03:17:53.143Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T03:18:35.217Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T03:18:59.521Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T03:19:13.289Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T03:19:28.283Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T03:19:39.295Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T03:19:44.822Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T03:19:54.341Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T03:20:03.622Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T03:20:05.879Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T03:21:37.530Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T03:21:39.559Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T03:22:14.386Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-15T03:22:29.650Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [15/May/2019:03:22:29 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-15T03:22:29.701Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T03:23:12.977Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T03:23:30.741Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T03:24:36.300Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T03:36:13.657Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T03:40:11.725Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-15T03:40:13.239Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-16T02:07:20.185Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-16T02:07:48.469Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-16T02:08:00.491Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-16T02:08:28.496Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-16T02:08:29.278Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-16T02:11:20.766Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-16T02:12:09.070Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-16T02:12:13.312Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-16T02:12:22.356Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-16T02:31:07.507Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-16T02:31:09.790Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-16T02:31:15.534Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [16/May/2019:02:31:15 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-16T02:31:15.582Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-16T02:32:02.854Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-16T02:32:09.836Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [16/May/2019:02:32:09 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-16T02:32:09.882Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-16T02:33:47.218Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-16T02:33:52.763Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [16/May/2019:02:33:52 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-16T02:33:52.808Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-16T02:34:27.513Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-16T02:34:34.466Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [16/May/2019:02:34:34 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-16T02:34:34.511Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-16T02:38:20.049Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-16T02:39:23.364Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-16T02:39:36.396Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-16T02:39:43.946Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-16T02:58:09.025Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-16T02:58:17.517Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-16T02:58:31.781Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-16T02:59:32.441Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [16/May/2019:02:59:32 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-16T02:59:32.496Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-16T03:58:15.649Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-16T03:58:22.161Z"}
+{"level":"info","message":"Creating mongo connection pool...","timestamp":"2019-05-16T03:58:28.460Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [16/May/2019:03:58:28 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-16T03:58:28.504Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [16/May/2019:03:58:45 +0000] \"POST /v1/user/login HTTP/1.1\" 200 2 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36\"\n","timestamp":"2019-05-16T03:58:45.040Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-16T04:44:16.506Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-16T05:37:38.901Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-16T05:37:39.650Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-16T05:38:14.208Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-16T05:38:34.498Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-16T05:38:36.276Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-16T05:38:36.763Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-16T05:38:37.266Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-26T15:59:46.037Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-05-26T16:23:40.459Z"}

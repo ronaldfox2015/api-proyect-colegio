@@ -1,0 +1,13 @@
+{
+  "name": "API-REST",
+  "version": "0.0.1",
+  "description": "API BASE",
+  "title": "API REST",
+  "url": "http://localhost",
+  "sampleUrl": "http://localhost",
+  "template": {
+    "forceLanguage": "en",
+    "withCompare": true,
+    "withGenerator": true
+  }
+}
