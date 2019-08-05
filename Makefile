@@ -62,6 +62,7 @@ run-migration: ## inicializar proyecto: make migration
 	docker run -it -p 3000:3000 --name $(PROJECT_NAME) $(DOCKER_NETWORK)  -v "$(PWD)/app:/app" -w "/app"  $(IMAGE_DEPLOY) yarn run-migration
 
 up: ## inicialiar mysql y applicacion
+	echo $(VIRTUAL_HOST);
 	@IMAGE_DEPLOY=$(IMAGE_DEPLOY) \
 	PROJECT_NAME=$(PROJECT_NAME) \
 	VIRTUAL_HOST=$(VIRTUAL_HOST) \

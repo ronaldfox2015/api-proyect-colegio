@@ -1,6 +1,6 @@
 import { injectable, inject } from 'inversify';
 import jwt from 'jsonwebtoken';
-import { EncrytRepository } from './../../domain/repository/encryt-repository';
+import { EncrytRepository } from '../../Domain/Repository/EncrytRepository';
 
 @injectable()
 export class JwtEncrytRepository implements EncrytRepository {

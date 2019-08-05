@@ -6,7 +6,7 @@ import { InversifyExpressServer } from 'inversify-express-utils';
 
 // IoC
 import { container } from './ioc-container';
-import { logger } from './utils';
+import { logger } from './Utils';
 
 import { AppConfig } from '../config/app-config';
 

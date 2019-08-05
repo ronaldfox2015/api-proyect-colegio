@@ -2,7 +2,7 @@ import { inject, injectable } from 'inversify';
 import { Request, Response } from 'express';
 import { controller, httpPost, httpGet } from 'inversify-express-utils';
 import * as HTTP_CODES from 'http-status-codes';
-import { logger } from '../../utils/logger';
+import { logger } from '../../Utils/logger';
 
 @injectable()
 @controller('/api')

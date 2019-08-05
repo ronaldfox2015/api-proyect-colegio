@@ -9,5 +9,8 @@ export const AppConfig = {
       dialect: "mysql",
       port: 3306
     }
+  },
+  jwt:{
+    key: 'app-education'
   }
 };

@@ -179,10 +179,36 @@ ADD CONSTRAINT fk_docente_usuario
 FOREIGN KEY	(idUsuario)
 REFERENCES tb_usuario(idUsuario);
 
-CREATE TABLE User(
-	idUsuario			INT				NOT NULL AUTO_INCREMENT,
-	nombreUsuario			VARCHAR			(20)	NOT NULL,
-	passwordUsuario			VARCHAR			(20)	NOT NULL,
-	estadoUsuario			TINYINT				NOT NULL,
-	CONSTRAINT pk_usuario PRIMARY KEY (idUsuario)
-);
+CREATE TABLE `User` (
+  id INT NOT NULL AUTO_INCREMENT,
+  nick VARCHAR (100) NOT NULL,
+  email VARCHAR (100) NOT NULL,
+  cellPhoneNumber VARCHAR (20) NOT NULL,
+  `password` VARCHAR (200) NOT NULL,
+  creationDate DATE NOT NULL,
+  updateDate DATE NOT NULL,
+  loginDate DATE NOT NULL,
+  rol CHAR (20) NOT NULL,
+  `status` CHAR(1) NOT NULL,
+  CONSTRAINT pk_User PRIMARY KEY (id)
+) ENGINE=INNODB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1 COLLATE=latin1_spanish_ci;
+
+CREATE TABLE `UserDetail` (
+  id INT NOT NULL AUTO_INCREMENT,
+  userId INT NOT NULL,
+   locationId INT NOT NULL,
+  `name`  VARCHAR (100) NOT NULL,
+  `surname`  VARCHAR (200) NOT NULL,
+  `secondSurname` VARCHAR (200) NOT NULL,
+  `documentType` CHAR (20) NOT NULL,
+  `documentNumber` CHAR (20) NOT NULL,
+  `gender` CHAR (8) NOT NULL,
+    photo VARCHAR (500) NOT NULL,
+  `birthdate` DATE NOT NULL,
+  `phoneNumber` VARCHAR (200) NOT NULL,
+  address VARCHAR (500) NOT NULL,
+  `status`   CHAR(1) NOT NULL,
+  CONSTRAINT pk_UserDetail PRIMARY KEY (id),
+    KEY `FK_UserDetailUser` (`userId`),
+  CONSTRAINT `FK_UserDetailUser` FOREIGN KEY (`userId`) REFERENCES `User` (`id`)
+) ENGINE=INNODB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1 COLLATE=latin1_spanish_ci;
