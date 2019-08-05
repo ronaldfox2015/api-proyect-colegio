@@ -1,6 +1,16 @@
+import {IsNotEmpty, IsEmail, IsFQDN, IsDate, Min, Max} from 'class-validator';
 
 export class UserInput {
+
+    @IsEmail()
+    @IsNotEmpty({
+        message: 'es un campo requerido'
+    })
     email: string;
+
+    @IsNotEmpty({
+        message: 'es un campo requerido'
+    })
     password: string;
     rol: string;
     locationId: number;
