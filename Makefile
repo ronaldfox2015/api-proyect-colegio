@@ -68,11 +68,9 @@ up: ## inicialiar mysql y applicacion
 	VIRTUAL_HOST=$(VIRTUAL_HOST) \
 	docker-compose -p $(PROJECT_NAME) up
 
-console: ## inicialiar mysql y applicacion
-	@IMAGE_DEPLOY=$(IMAGE_DEPLOY) \
-	PROJECT_NAME=$(PROJECT_NAME) \
-	VIRTUAL_HOST=$(VIRTUAL_HOST) \
-	docker-compose -p $(PROJECT_NAME) exec backend bash
+test: ## inicialiar mysql y applicacion
+	make mysql;
+	docker run -it -p 3000:3000 --name $(PROJECT_NAME)  -v "$(PWD)/app:/app" -w "/app"  $(IMAGE_DEPLOY) yarn test:unit
 
 login: ## login de docker: make login
 	@docker login

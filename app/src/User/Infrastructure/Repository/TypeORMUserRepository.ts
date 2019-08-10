@@ -4,7 +4,7 @@ import {UserRepository} from '../../Domain/Repository/UserRepository';
 import {Mysql} from './../../../Common/Adapter/Persistence/TypeOrm/Mysql';
 import {logger} from '../../../Utils';
 import {EntityManager} from 'typeorm';
-import {UserDetail} from "../../Domain/Entity/UserDetail";
+import {UserDetail} from '../../Domain/Entity/UserDetail';
 
 @injectable()
 export class TypeORMUserRepository implements UserRepository {
