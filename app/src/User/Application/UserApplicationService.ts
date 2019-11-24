@@ -3,6 +3,7 @@ import { UserRepository } from './../Domain/Repository/UserRepository';
 import { User } from './../Domain/Entity/User';
 import { UserInput } from './Input/UserInput';
 import {UserDetail} from './../Domain/Entity/UserDetail';
+import {AuthInput} from './Input/AuthInput';
 @injectable()
 export class UserApplicationService {
 
@@ -10,14 +11,8 @@ export class UserApplicationService {
         @inject('UserRepository') private _UserRepository: UserRepository
     ) { }
 
-    /**
-     * d
-     * @param name
-     * @param pasword
-     */
-    async login(name: string, pasword: string): Promise<User> {
-        const login = await this._UserRepository.islogin(name, pasword);
-        return login;
+    async login(authInput: AuthInput): Promise<object> {
+        return authInput;
     }
 
     async createAccount(userInput: UserInput): Promise<object> {

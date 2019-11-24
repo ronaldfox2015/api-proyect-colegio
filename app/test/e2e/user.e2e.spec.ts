@@ -10,10 +10,11 @@ describe('Crear usuario API', () => {
     it('should register a new user', () => {
 
         return request(app)
-            .post('/v1/user/login')
+            .post('/v1/auth/login')
             .send({
                 user: 'ronaldcutissaca',
-                pasword: '123456'
+                pasword: '123456',
+                token: '123456'
             })
             .expect(httpStatus.OK)
             .then((res) => {

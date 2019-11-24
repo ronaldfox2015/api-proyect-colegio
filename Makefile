@@ -45,8 +45,14 @@ install: ## install de paquetes
 	make tast EXECUTE="install";
 	sudo chmod -R 777 app/*;
 
-tast: ## installar: make tast EXECUTE=install
+tast: ## installar: make tast EXECUTE=remove global react-native-cli
 	docker run -it -v "$(PWD)/app:/app" -w "/app" $(IMAGE_DEPLOY) yarn $(EXECUTE)
+
+ssh: ## installar: make tast EXECUTE=remove global react-native-cli
+	docker run -it -v "$(PWD)/app:/app" -w "/app" $(IMAGE_DEPLOY) bash
+
+test-e2e: ## installar: make test-e2e
+	docker run -it -v "$(PWD)/app:/app" -w "/app" $(IMAGE_DEPLOY) yarn test:e2e
 
 mysql: ## construir mysql
 	docker run -p 3306:3306 --name $(TAG_MYSQL) $(DOCKER_NETWORK) -v $(PWD)/docker/mysql/sql:/docker-entrypoint-initdb.d -e MYSQL_ROOT_PASSWORD=$(MYSQL_ROOT_PASSWORD) -e MYSQL_USER=$(MYSQL_USER) -e MYSQL_DATABASE=reservation -d mysql:5.5;
