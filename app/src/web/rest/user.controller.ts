@@ -30,13 +30,14 @@ export class UserController {
 
     @httpPost('/auth/login')
     get(request: Request, response: Response) {
-        logger.info(request.headers);
-        this.userAppSvc.login(new AuthInput(
+
+        const apiResponse = this.userAppSvc.login(new AuthInput(
             request.body.user,
             request.body.password,
             request.body.token
             )
         );
-        return response.send(request.headers);
+        logger.info(apiResponse);
+        return response.send(apiResponse);
     }
 }

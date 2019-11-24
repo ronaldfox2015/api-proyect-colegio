@@ -11,8 +11,8 @@ export class UserApplicationService {
         @inject('UserRepository') private _UserRepository: UserRepository
     ) { }
 
-    async login(authInput: AuthInput): Promise<object> {
-        return authInput;
+    login(authInput: AuthInput): AuthInput {
+        return  authInput;
     }
 
     async createAccount(userInput: UserInput): Promise<object> {

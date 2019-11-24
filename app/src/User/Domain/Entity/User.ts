@@ -3,49 +3,26 @@ import { UserDetail } from './UserDetail';
 
 @Entity()
 export class User {
-    @PrimaryGeneratedColumn()
+    @PrimaryGeneratedColumn({
+        name : 'idUsuario'
+    })
     id: number;
 
-    @Column()
+    @Column({
+        name : 'nomUsuario'
+    })
     nick: string;
 
-    @Column()
-    email: string;
-
-    @Column()
-    cellPhoneNumber: string;
-
-    @Column()
+    @Column({
+        name : 'password'
+    })
     password: string;
 
-    @Column()
-    creationDate: Date;
-
-    @Column()
-    updateDate: Date;
-
-    @Column()
-    loginDate: Date;
-
-    @Column()
-    rol: string;
-
-    @Column()
+    @Column({
+        name : 'estadoUsuario'
+    })
     status: string;
 
-    public static createAccountByEmail(
-        email: string,
-        password: string,
-        rol: string
-        ) {
-        const user = new User();
-        user.email = email;
-        user.password = password;
-        user.creationDate = new Date();
-        user.updateDate = new Date();
-        user.loginDate = new Date();
-        user.rol = rol;
-        user.status = '1';
-        return user;
-    }
+    @Column()
+    idRol: number;
 }
