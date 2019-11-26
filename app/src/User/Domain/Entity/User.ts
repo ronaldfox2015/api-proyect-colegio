@@ -1,5 +1,5 @@
 import { Entity, Column, PrimaryGeneratedColumn, OneToOne, JoinColumn } from 'typeorm';
-import { UserDetail } from './UserDetail';
+import { UserRoles } from './UserRoles';
 
 @Entity()
 export class User {
@@ -24,5 +24,14 @@ export class User {
     status: string;
 
     @Column()
-    idRol: number;
+    roles: UserRoles;
+
+    static create(id: number, nick: string, password: string, roles: UserRoles): User {
+        const user = new User();
+        user.id = id;
+        user.nick = nick;
+        user.password = password;
+        user.roles = roles;
+        return user;
+    }
 }

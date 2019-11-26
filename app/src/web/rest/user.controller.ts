@@ -15,16 +15,7 @@ export class UserController {
     ) { }
     @httpPost('/user')
     createAccount(request: any, response: Response) {
-        this.userAppSvc.createAccount(new UserInput(
-            request.body.email,
-            request.body.password,
-            request.body.rol,
-            request.body.locationId,
-            request.body.name,
-            request.body.surname,
-            request.body.secondSurname,
-            request.body.gender
-        ));
+
         return response.send(request.query);
     }
 

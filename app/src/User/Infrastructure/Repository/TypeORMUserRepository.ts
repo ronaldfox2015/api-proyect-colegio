@@ -3,10 +3,9 @@ import {User} from '../../Domain/Entity/User';
 import {UserRepository} from '../../Domain/Repository/UserRepository';
 import {Mysql} from './../../../Common/Adapter/Persistence/TypeOrm/Mysql';
 import {logger} from '../../../Utils';
-import {EntityManager} from 'typeorm';
-import {UserDetail} from '../../Domain/Entity/UserDetail';
 
 @injectable()
+// @ts-ignore
 export class TypeORMUserRepository implements UserRepository {
 
     constructor(
@@ -14,16 +13,16 @@ export class TypeORMUserRepository implements UserRepository {
     ) {
     }
 
-    async getByEmailAndPassword(email: string, password: string): Promise<User> {
+    async getByNickAndPassword(nick: string, password: string): Promise<User> {
         return this._repositoryDb.getConnection().then((connection) => {
             return connection.getRepository(User).createQueryBuilder('u').where(
-                `u.email=:userEmail`,
+                `u.nomUsuario=:nick`,
                 {
-                    userEmail: email
+                    nick: nick
                 }).andWhere(
-                `u.password=:UserPassword`,
+                `u.password=:password`,
                 {
-                    UserPassword: password
+                    password : password
                 }
             ).getMany();
         }).catch((error) => logger.info(error));
@@ -35,12 +34,4 @@ export class TypeORMUserRepository implements UserRepository {
         return;
     }
 
-    async create(userDetail: UserDetail): Promise<User> {
-        return this._repositoryDb.manager().then((entityManager: EntityManager) => {
-            return entityManager.save(userDetail);
-        }).catch(
-            (error) =>
-                logger.info(error)
-        );
-    }
 }

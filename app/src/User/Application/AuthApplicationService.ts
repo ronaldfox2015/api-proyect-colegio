@@ -2,7 +2,6 @@ import { injectable, inject } from 'inversify';
 import { UserRepository } from './../Domain/Repository/UserRepository';
 import { User } from './../Domain/Entity/User';
 import { UserInput } from './Input/UserInput';
-import {UserDetail} from './../Domain/Entity/UserDetail';
 import {AuthInput} from './Input/AuthInput';
 
 @injectable()

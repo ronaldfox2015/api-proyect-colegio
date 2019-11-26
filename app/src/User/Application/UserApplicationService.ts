@@ -2,7 +2,6 @@ import { injectable, inject } from 'inversify';
 import { UserRepository } from './../Domain/Repository/UserRepository';
 import { User } from './../Domain/Entity/User';
 import { UserInput } from './Input/UserInput';
-import {UserDetail} from './../Domain/Entity/UserDetail';
 import {AuthInput} from './Input/AuthInput';
 @injectable()
 export class UserApplicationService {
@@ -11,30 +10,7 @@ export class UserApplicationService {
         @inject('UserRepository') private _UserRepository: UserRepository
     ) { }
 
-    login(authInput: AuthInput): AuthInput {
-        return  authInput;
+    login(authInput: AuthInput): any {
+        return this._UserRepository.getByNickAndPassword(authInput.user, authInput.password);
     }
-
-    async createAccount(userInput: UserInput): Promise<object> {
-        const user = User.createAccountByEmail(
-            userInput.email,
-            userInput.password,
-            userInput.rol
-        );
-        const userDetail = UserDetail.createAccount(
-            user,
-            userInput.locationId,
-            userInput.name,
-            userInput.surname,
-            userInput.secondSurname,
-            userInput.gender
-        );
-
-        await this._UserRepository.create(userDetail);
-        return {
-            message: 'string',
-            status: true
-          };
-    }
-
 }
