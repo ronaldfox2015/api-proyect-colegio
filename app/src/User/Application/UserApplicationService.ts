@@ -11,6 +11,7 @@ export class UserApplicationService {
     ) { }
 
     login(authInput: AuthInput): any {
-        return this._UserRepository.getByNickAndPassword(authInput.user, authInput.password);
+        const user = this._UserRepository.getByNickAndPassword(authInput.user, authInput.password);
+        return user;
     }
 }

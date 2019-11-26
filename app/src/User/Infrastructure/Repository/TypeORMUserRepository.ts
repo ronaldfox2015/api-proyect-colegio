@@ -29,7 +29,6 @@ export class TypeORMUserRepository implements UserRepository {
     }
 
     // @ts-ignore
-    // tslint:disable-next-line:no-empty
     async islogin(name: string, password: string): Promise<User> {
         return;
     }
