@@ -13,8 +13,8 @@ export class TypeORMUserRepository implements UserRepository {
     ) {
     }
 
-    async getByNickAndPassword(nick: string, password: string): Promise<User> {
-        return this._repositoryDb.getConnection().then((connection) => {
+    getByNickAndPassword(nick: string, password: string): Promise<User> {
+        return  this._repositoryDb.getConnection().then(async (connection) => {
             return connection.getRepository(User).createQueryBuilder('u').where(
                 `u.nomUsuario=:nick`,
                 {
@@ -22,7 +22,7 @@ export class TypeORMUserRepository implements UserRepository {
                 }).andWhere(
                 `u.password=:password`,
                 {
-                    password : password
+                    password: password
                 }
             ).getMany();
         }).catch((error) => logger.info(error));

@@ -4,7 +4,7 @@ import { logger } from '../../../../Utils';
 
 @injectable()
 export class Mysql {
-    connectionParameters: string;
+    connectionParameters: any;
 
     constructor(connectionParameters: any) {
         this.connectionParameters = connectionParameters;

@@ -5,7 +5,6 @@ import { AppConfig } from './../config/app-config';
 import { Container } from 'inversify';
 // infraestructura
 import { TypeORMUserRepository } from './User/Infrastructure/Repository/TypeORMUserRepository';
-import { JwtEncrytRepository } from './User/Infrastructure/Jwt/JwtEncrytRepository';
 import { Mysql } from './Common/Adapter/Persistence/TypeOrm/Mysql';
 // import { Mail } from './Notification/Infrastructure/Mail/Mail';
 
@@ -17,16 +16,17 @@ import { EncrytRepository } from './User/Domain/Repository/EncrytRepository';
 import { UserApplicationService } from './User/Application/UserApplicationService';
 
 // controller
-import { UserController } from './web/rest/user.controller';
+import { UserController } from './Web/Rest/user.controller';
 
 // @ts-ignore
 const container = new Container();
+console.log(AppConfig.bd.mysql)
 const TypeOrmMYSQL = new Mysql(AppConfig.bd.mysql);
-const JwtRepository = new JwtEncrytRepository(AppConfig.jwt);
+// const JwtRepository = new JwtEncrytRepository(AppConfig.jwt);
 // const MailRepo = new Mail(AppConfig.mail);
 // infraestructura
 container.bind<Mysql>('Mysql').toConstantValue(TypeOrmMYSQL);
-container.bind<EncrytRepository>('EncrytRepository').toConstantValue(JwtRepository);
+// container.bind<EncrytRepository>('EncrytRepository').toConstantValue(JwtRepository);
 container.bind<UserRepository>('UserRepository').to(TypeORMUserRepository).inSingletonScope();
 
 // application
