@@ -3,7 +3,7 @@ import { Request, Response } from 'express';
 import { controller, httpPost, httpGet } from 'inversify-express-utils';
 import { logger } from '../../Utils/logger';
 import { UserApplicationService } from './../../User/Application/UserApplicationService';
-import { UserInput } from './../../User/Application/Input/UserInput';
+import * as HTTP_CODES from 'http-status-codes';
 import {AuthInput} from './../../User/Application/Input/AuthInput';
 
 @injectable()
@@ -20,15 +20,14 @@ export class UserController {
     }
 
     @httpPost('/auth/login')
-    get(request: Request, response: Response) {
-
-        const apiResponse = this.userAppSvc.login(new AuthInput(
+    login(request: Request, response: Response) {
+        const apiResponse =  this.userAppSvc.login(new AuthInput(
             request.body.user,
             request.body.password,
             request.body.token
             )
         );
-        logger.info(apiResponse);
-        return response.send(apiResponse);
+
+        return  response.send(apiResponse);
     }
 }

@@ -2,9 +2,9 @@ import {IsNotEmpty, IsEmail, IsFQDN, IsDate, Min, Max} from 'class-validator';
 
 export class AuthInput {
 
-    user: string
-    password: string;
-    token: string;
+    private _user: string
+    private _password: string;
+    private _token: string;
 
     /**
      * @param user
@@ -12,8 +12,20 @@ export class AuthInput {
      * @param token
      */
     constructor(user: string, password: string, token: string) {
-        this.user = user;
-        this.password = password;
-        this.token = token;
+        this._user = user;
+        this._password = password;
+        this._token = token;
+    }
+
+    user(): string {
+        return this._user;
+    }
+
+    password(): string {
+        return this._password;
+    }
+
+    token(): string {
+        return this._token;
     }
 }

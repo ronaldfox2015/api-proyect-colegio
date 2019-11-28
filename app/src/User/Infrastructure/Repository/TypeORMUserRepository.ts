@@ -13,9 +13,9 @@ export class TypeORMUserRepository implements UserRepository {
     ) {
     }
 
-    getByNickAndPassword(nick: string, password: string): Promise<User> {
-        return  this._repositoryDb.getConnection().then(async (connection) => {
-            return connection.getRepository(User).createQueryBuilder('u').where(
+    async getByNickAndPassword(nick: string, password: string): Promise<User> {
+        return this._repositoryDb.getConnection().then(async (connection) => {
+            const responseuser = connection.getRepository(User).createQueryBuilder('u').where(
                 `u.nomUsuario=:nick`,
                 {
                     nick: nick
@@ -25,6 +25,7 @@ export class TypeORMUserRepository implements UserRepository {
                     password: password
                 }
             ).getMany();
+            return  responseuser;
         }).catch((error) => logger.info(error));
     }
 

@@ -10,8 +10,11 @@ export class UserApplicationService {
         @inject('UserRepository') private _UserRepository: UserRepository
     ) { }
 
-    login(authInput: AuthInput): any {
-        const user = this._UserRepository.getByNickAndPassword(authInput.user, authInput.password);
+    login(authInput: AuthInput): Promise<User> {
+        const user = this._UserRepository.getByNickAndPassword(
+            authInput.user(),
+            authInput.password()
+        );
         return user;
     }
 }

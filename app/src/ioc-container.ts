@@ -17,10 +17,12 @@ import { UserApplicationService } from './User/Application/UserApplicationServic
 
 // controller
 import { UserController } from './Web/Rest/user.controller';
+import {logger} from "./Utils";
+
+logger.info(AppConfig.bd.mysql);
 
 // @ts-ignore
 const container = new Container();
-console.log(AppConfig.bd.mysql)
 const TypeOrmMYSQL = new Mysql(AppConfig.bd.mysql);
 // const JwtRepository = new JwtEncrytRepository(AppConfig.jwt);
 // const MailRepo = new Mail(AppConfig.mail);

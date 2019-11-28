@@ -14,7 +14,7 @@ describe.only('Customers API', () => {
             .send({
                 user: 'SANQUI2019',
                 password: 'admin',
-                token: 'John Doe'
+                token: 'John Dode'
 
             })
             .expect(httpStatus.OK)

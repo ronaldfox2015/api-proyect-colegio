@@ -11,6 +11,7 @@ export class Mysql {
     }
     // tslint:disable-next-line: whitespace
     async manager(): Promise<EntityManager | void> {
+        logger.info(this.connectionParameters);
         const connection = await createConnection(this.connectionParameters).then((con) => {
             return con.manager;
             // tslint:disable-next-line:no-console

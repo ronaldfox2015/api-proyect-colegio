@@ -1,7 +1,7 @@
-import { Entity, Column, PrimaryGeneratedColumn, OneToOne, JoinColumn } from 'typeorm';
+import { Entity, Column, PrimaryGeneratedColumn, OneToOne, JoinColumn, Table } from 'typeorm';
 import { UserRoles } from './UserRoles';
 
-@Entity()
+@Entity('tb_usuario')
 export class User {
     @PrimaryGeneratedColumn({
         name : 'idUsuario'
