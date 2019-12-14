@@ -48,7 +48,10 @@ var User = /** @class */ (function () {
         __metadata("design:type", String)
     ], User.prototype, "status", void 0);
     __decorate([
-        typeorm_1.Column(),
+        typeorm_1.OneToOne(function (type) { return UserRoles_1.UserRoles; }, function (roles) { return roles.id; }),
+        typeorm_1.JoinColumn({
+            name: 'idRol'
+        }),
         __metadata("design:type", UserRoles_1.UserRoles)
     ], User.prototype, "roles", void 0);
     User = User_1 = __decorate([

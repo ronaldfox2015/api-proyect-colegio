@@ -1,33 +1,41 @@
 import { inject, injectable } from 'inversify';
-import { Request, Response } from 'express';
+// tslint:disable-next-line: ordered-imports
+import { Request, Response, NextFunction, ErrorRequestHandler } from 'express';
+// tslint:disable-next-line: ordered-imports
 import { controller, httpPost, httpGet } from 'inversify-express-utils';
-import { logger } from '../../Utils/logger';
-import { UserApplicationService } from './../../User/Application/UserApplicationService';
+import { AuthApplicationService } from './../../User/Application/AuthApplicationService';
+// tslint:disable-next-line: ordered-imports
 import * as HTTP_CODES from 'http-status-codes';
-import {AuthInput} from './../../User/Application/Input/AuthInput';
+import { AuthInput } from './../../User/Application/Input/AuthInput';
+// tslint:disable-next-line: ordered-imports
 
 @injectable()
 @controller('/v1')
 export class UserController {
-// tslint:disable-next-line: no-empty
-    constructor(
-        @inject('UserApplicationService') private userAppSvc: UserApplicationService
-    ) { }
-    @httpPost('/user')
-    createAccount(request: any, response: Response) {
+  // tslint:disable-next-line: no-empty
+  constructor(
+    @inject('UserApplicationService') private userAppSvc: AuthApplicationService
+  ) {}
 
-        return response.send(request.query);
+  @httpPost('/user')
+  createAccount(request: any, response: Response) {
+    return response.send(request.query);
+  }
+  @httpPost('/auth/login')
+  async login(request: Request, response: Response, next: NextFunction) {
+    try {
+      const apiResponse = await this.userAppSvc.login(
+        new AuthInput(
+          request.body.user,
+          request.body.password,
+          request.body.rol
+        )
+      );
+      response.send(apiResponse);
+    } catch (error) {
+      response
+        .status(error.status)
+        .json({ error: error.message, status: error.status });
     }
-
-    @httpPost('/auth/login')
-    login(request: Request, response: Response) {
-        const apiResponse =  this.userAppSvc.login(new AuthInput(
-            request.body.user,
-            request.body.password,
-            request.body.token
-            )
-        );
-
-        return  response.send(apiResponse);
-    }
+  }
 }

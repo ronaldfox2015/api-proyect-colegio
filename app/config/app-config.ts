@@ -7,7 +7,9 @@ export const AppConfig = {
       database: 'bd_iepmae',
       host: 'mysql',
       dialect: 'mysql',
-      port: 3306
+      type: 'mysql',
+      port: 3306,
+      entities: []
     }
   }
 };

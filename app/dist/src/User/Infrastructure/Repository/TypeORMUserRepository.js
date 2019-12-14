@@ -47,37 +47,72 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+// @ts-ignore
 var inversify_1 = require("inversify");
 var User_1 = require("../../Domain/Entity/User");
+var UserRoles_1 = require("../../Domain/Entity/UserRoles");
+var HttpException_1 = require("../../../Common/Exception/HttpException");
 var Mysql_1 = require("./../../../Common/Adapter/Persistence/TypeOrm/Mysql");
-var Utils_1 = require("../../../Utils");
 var TypeORMUserRepository = /** @class */ (function () {
     function TypeORMUserRepository(_repositoryDb) {
         this._repositoryDb = _repositoryDb;
+        this.connection = this._repositoryDb.getConnection();
     }
-    TypeORMUserRepository.prototype.getByNickAndPassword = function (nick, password) {
+    // @ts-ignore
+    TypeORMUserRepository.prototype.getByNickAndPassword = function (nick, password, rol) {
         return __awaiter(this, void 0, void 0, function () {
             var _this = this;
             return __generator(this, function (_a) {
-                return [2 /*return*/, this._repositoryDb.getConnection().then(function (connection) { return __awaiter(_this, void 0, void 0, function () {
-                        var responseuser;
+                return [2 /*return*/, this.connection
+                        .then(function (response) { return __awaiter(_this, void 0, void 0, function () {
+                        var responseUser;
                         return __generator(this, function (_a) {
-                            responseuser = connection.getRepository(User_1.User).createQueryBuilder('u').where("u.nomUsuario=:nick", {
-                                nick: nick
-                            }).andWhere("u.password=:password", {
-                                password: password
-                            }).getMany();
-                            return [2 /*return*/, responseuser];
+                            switch (_a.label) {
+                                case 0: return [4 /*yield*/, response
+                                        .getRepository(User_1.User)
+                                        .createQueryBuilder('u')
+                                        .innerJoin(UserRoles_1.UserRoles, 'rol', 'rol.id = u.idRol')
+                                        .where("u.nomUsuario=:nick", { nick: nick })
+                                        .andWhere("u.password=:password", { password: password })
+                                        .andWhere("rol.slug=:rol", { rol: rol })
+                                        .getOne()];
+                                case 1:
+                                    responseUser = _a.sent();
+                                    return [2 /*return*/, responseUser];
+                            }
                         });
-                    }); }).catch(function (error) { return Utils_1.logger.info(error); })];
+                    }); })
+                        .catch(function (error) {
+                        console.log(error);
+                        throw new HttpException_1.HttpException(500, 'dddd');
+                    })];
             });
         });
     };
     // @ts-ignore
-    TypeORMUserRepository.prototype.islogin = function (name, password) {
+    TypeORMUserRepository.prototype.role = function (rol) {
         return __awaiter(this, void 0, void 0, function () {
+            var _this = this;
             return __generator(this, function (_a) {
-                return [2 /*return*/];
+                return [2 /*return*/, this.connection
+                        .then(function (response) { return __awaiter(_this, void 0, void 0, function () {
+                        var responseUserRoles;
+                        return __generator(this, function (_a) {
+                            switch (_a.label) {
+                                case 0: return [4 /*yield*/, response
+                                        .getRepository(UserRoles_1.UserRoles)
+                                        .createQueryBuilder('ur')
+                                        .where("ur.slug=:rol", { rol: rol })
+                                        .getOne()];
+                                case 1:
+                                    responseUserRoles = _a.sent();
+                                    return [2 /*return*/, responseUserRoles];
+                            }
+                        });
+                    }); })
+                        .catch(function (error) {
+                        throw new HttpException_1.HttpException(500, error);
+                    })];
             });
         });
     };

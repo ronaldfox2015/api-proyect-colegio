@@ -1,0 +1,43 @@
+{
+  "editor.renderWhitespace": "all",
+  "editor.fontSize": 14,
+  "window.zoomLevel": 1,
+  "prettier.singleQuote": true,
+  "editor.fontLigatures": true,
+  "typescript.check.tscVersion": false,
+  "files.exclude": {
+    "**/.git": false,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true
+  },
+  "workbench.colorTheme": "Dracula At Night",
+  "extensions.ignoreRecommendations": false,
+  "gitlens.keymap": "alternate",
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "explorer.autoReveal": false,
+  // config und
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "typescript",
+      "autoFix": true
+    }
+  ],
+  "eslint.autoFixOnSave": true,
+  "editor.formatOnSave": false,
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "cSpell.language": "en,es",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.iconTheme": "vscode-icons",
+  "cSpell.userWords": ["Fastify", "nestjs"]
+}

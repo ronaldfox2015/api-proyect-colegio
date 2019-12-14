@@ -1,15 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var AuthInput = /** @class */ (function () {
-    /**
-     * @param user
-     * @param password
-     * @param token
-     */
-    function AuthInput(user, password, token) {
+    function AuthInput(user, password, rol) {
         this._user = user;
         this._password = password;
-        this._token = token;
+        this._rol = rol;
     }
     AuthInput.prototype.user = function () {
         return this._user;
@@ -17,8 +12,8 @@ var AuthInput = /** @class */ (function () {
     AuthInput.prototype.password = function () {
         return this._password;
     };
-    AuthInput.prototype.token = function () {
-        return this._token;
+    AuthInput.prototype.rol = function () {
+        return this._rol;
     };
     return AuthInput;
 }());

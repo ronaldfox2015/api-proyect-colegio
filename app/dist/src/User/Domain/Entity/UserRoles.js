@@ -5,13 +5,45 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 var typeorm_1 = require("typeorm");
+var User_1 = require("./User");
 var UserRoles = /** @class */ (function () {
     function UserRoles() {
     }
+    __decorate([
+        typeorm_1.PrimaryGeneratedColumn({
+            name: 'idRol'
+        }),
+        __metadata("design:type", Number)
+    ], UserRoles.prototype, "id", void 0);
+    __decorate([
+        typeorm_1.Column({
+            name: 'nombreRol'
+        }),
+        __metadata("design:type", String)
+    ], UserRoles.prototype, "name", void 0);
+    __decorate([
+        typeorm_1.Column({
+            name: 'slug'
+        }),
+        __metadata("design:type", String)
+    ], UserRoles.prototype, "slug", void 0);
+    __decorate([
+        typeorm_1.Column({
+            name: 'estadoRol'
+        }),
+        __metadata("design:type", String)
+    ], UserRoles.prototype, "status", void 0);
+    __decorate([
+        typeorm_1.OneToOne(function (type) { return User_1.User; }, function (user) { return user.roles.id; }),
+        __metadata("design:type", User_1.User)
+    ], UserRoles.prototype, "users", void 0);
     UserRoles = __decorate([
-        typeorm_1.Entity()
+        typeorm_1.Entity('tb_rol')
     ], UserRoles);
     return UserRoles;
 }());

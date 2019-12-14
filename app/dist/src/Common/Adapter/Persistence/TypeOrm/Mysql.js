@@ -57,12 +57,13 @@ var Mysql = /** @class */ (function () {
             var connection;
             return __generator(this, function (_a) {
                 switch (_a.label) {
-                    case 0:
-                        Utils_1.logger.info(this.connectionParameters);
-                        return [4 /*yield*/, typeorm_1.createConnection(this.connectionParameters).then(function (con) {
-                                return con.manager;
-                                // tslint:disable-next-line:no-console
-                            }).catch(function (error) { return Utils_1.logger.info(error); })];
+                    case 0: return [4 /*yield*/, typeorm_1.createConnection(this.connectionParameters)
+                            .then(function (con) {
+                            var manager = con.manager;
+                            return manager;
+                            // tslint:disable-next-line:no-console
+                        })
+                            .catch(function (error) { return Utils_1.logger.info(error); })];
                     case 1:
                         connection = _a.sent();
                         return [2 /*return*/, connection];
@@ -71,19 +72,15 @@ var Mysql = /** @class */ (function () {
         });
     };
     // @ts-ignore
-    /**
-     *
-     * @param entity
-     */
     Mysql.prototype.getRepository = function (entity) {
-        return __awaiter(this, void 0, void 0, function () {
+        return __awaiter(this, void 0, typeorm_1.Repository, function () {
             var connection;
             return __generator(this, function (_a) {
                 switch (_a.label) {
                     case 0: return [4 /*yield*/, typeorm_1.createConnection(this.connectionParameters)];
                     case 1:
                         connection = _a.sent();
-                        return [2 /*return*/, connection.getRepository(entity).createQueryBuilder(entity.name)];
+                        return [2 /*return*/, connection.getRepository(entity)];
                 }
             });
         });

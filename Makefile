@@ -8,6 +8,7 @@ PROVIDER					= ronaldgcr
 DOCKER_NETWORK				?= --network api_reserva 
 ## DEV ##
 TAG_DEV						= 0.0.1
+TAG_TEST					= test
 TAG_MYSQL 					= mysql
 MYSQL_USER					?= root
 MYSQL_ROOT_PASSWORD			?= 1234
@@ -30,6 +31,7 @@ INFRA_BUCKET 				?= infraestructura.dev
 ## RESULT_VARS ##
 PROJECT_NAME			    = $(OWNER)-$(ENV)-$(SERVICE_NAME)
 IMAGE_DEPLOY			    = $(PROVIDER)/$(PROJECT_NAME):$(TAG_DEV)
+IMAGE_TEST			    		= $(PROVIDER)/$(PROJECT_NAME):$(TAG_TEST)
 
 ## VARIABLES FOR LOCAL BALANCER, 'SPRING CONFIG OR ENV VARS' ##
 VIRTUAL_HOST				= $(PROJECT_NAME)/$(VERSION)
@@ -38,21 +40,29 @@ VIRTUAL_HOST				= $(PROJECT_NAME)/$(VERSION)
 NETWORD					    ?= orbis-training-$(PROJECT_NAME)
 PATH_CORE					?= $(PWD)/core
 
-build: ## construccion de la imagen: make build
+build: ## construccion de la imagen: make build IMAGE_DEPLOY=IMAGE_TEST
 	docker build -f docker/node/Dockerfile -t $(IMAGE_DEPLOY) docker/node/;
+
+build-test: ## construccion de la imagen: make build IMAGE_DEPLOY=IMAGE_TEST
+	docker build -f docker/node/Dockerfile -t $(IMAGE_TEST) docker/node/;
 
 install: ## install de paquetes
 	make tast EXECUTE="install";
 	sudo chmod -R 777 app/*;
 
-tast: ## installar: make tast EXECUTE=remove global react-native-cli
+tast: ## tast: make tast EXECUTE=remove global react-native-cli
 	docker run -it -v "$(PWD)/app:/app" -w "/app" $(IMAGE_DEPLOY) yarn $(EXECUTE)
 
-ssh: ## installar: make tast EXECUTE=remove global react-native-cli
+ssh: ## ssh: make ssh
 	docker run -it -v "$(PWD)/app:/app" -w "/app" $(IMAGE_DEPLOY) bash
 
-test-e2e: ## installar: make test-e2e
-	docker run -it -v "$(PWD)/app:/app" -w "/app" $(DOCKER_NETWORK) $(IMAGE_DEPLOY) yarn test:e2e
+test-e2e: ## Run the end to end Tests
+	echo $(VIRTUAL_HOST);
+	@IMAGE_DEPLOY=$(IMAGE_DEPLOY) \
+	PROJECT_NAME=$(PROJECT_NAME) \
+	VIRTUAL_HOST=$(VIRTUAL_HOST) \
+	IMAGE_TEST=$(IMAGE_TEST) \
+	docker-compose -f docker-compose-test.yml run  yarn test
 
 mysql: ## construir mysql
 	docker run -p 3306:3306 --name $(TAG_MYSQL) $(DOCKER_NETWORK) -v $(PWD)/docker/mysql/sql:/docker-entrypoint-initdb.d -e MYSQL_ROOT_PASSWORD=$(MYSQL_ROOT_PASSWORD) -e MYSQL_USER=$(MYSQL_USER) -e MYSQL_DATABASE=reservation -d mysql:5.5;

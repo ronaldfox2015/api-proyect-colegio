@@ -2,17 +2,10 @@
   "extends": "tslint:latest",
   "rules": {
     "callable-types": true,
-    "interface-name": [
-      false
-    ],
+    "interface-name": [false],
     "interface-over-type-literal": true,
-    "max-classes-per-file": [
-      true
-    ],
-    "max-line-length": [
-      true,
-      140
-    ],
+    "max-classes-per-file": [true],
+    "max-line-length": [true, 140],
     "object-literal-sort-keys": false,
     "member-ordering": [
       true,
@@ -21,13 +14,8 @@
       "variables-before-functions"
     ],
     "member-access": false,
-    "quotemark": [
-      true,
-      "single"
-    ],
-    "ordered-imports": [
-      false
-    ],
+    "quotemark": [true, "single"],
+    "ordered-imports": [true],
     "no-angle-bracket-type-assertion": true,
     "no-default-export": true,
     "no-empty-interface": true,
@@ -40,11 +28,7 @@
         "singleline": "never"
       }
     ],
-    "indent": [
-      true,
-      "spaces",
-      2
-    ],
+    "indent": [true, "spaces", 2],
     "variable-name": [
       true,
       "ban-keywords",

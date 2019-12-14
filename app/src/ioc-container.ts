@@ -2,28 +2,31 @@ import 'reflect-metadata';
 // @ts-ignore
 import { interfaces, TYPE } from 'inversify-express-utils';
 import { AppConfig } from './../config/app-config';
+// @ts-ignore
 import { Container } from 'inversify';
 // infraestructura
 import { TypeORMUserRepository } from './User/Infrastructure/Repository/TypeORMUserRepository';
 import { Mysql } from './Common/Adapter/Persistence/TypeOrm/Mysql';
 // import { Mail } from './Notification/Infrastructure/Mail/Mail';
-
 // domain
 import { UserRepository } from './User/Domain/Repository/UserRepository';
 import { EncrytRepository } from './User/Domain/Repository/EncrytRepository';
+import { User } from './User/Domain/Entity/User';
+import { UserRoles } from './User/Domain/Entity/UserRoles';
 
 // application
 import { UserApplicationService } from './User/Application/UserApplicationService';
 
 // controller
 import { UserController } from './Web/Rest/user.controller';
-import {logger} from "./Utils";
-
-logger.info(AppConfig.bd.mysql);
+import { logger } from './Utils';
 
 // @ts-ignore
 const container = new Container();
+const mysqlConfig = AppConfig.bd.mysql;
+mysqlConfig.entities = [User, UserRoles];
 const TypeOrmMYSQL = new Mysql(AppConfig.bd.mysql);
+
 // const JwtRepository = new JwtEncrytRepository(AppConfig.jwt);
 // const MailRepo = new Mail(AppConfig.mail);
 // infraestructura

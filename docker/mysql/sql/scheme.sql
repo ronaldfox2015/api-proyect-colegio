@@ -392,15 +392,12 @@ CREATE TABLE tb_rol
 (
 	idRol                INTEGER NOT NULL,
 	nombreRol            VARCHAR(20) NULL,
+	slug				 VARCHAR(20) NULL,
 	estadoRol            TINYINT NULL
 );
 
-
-
 ALTER TABLE tb_rol
 ADD PRIMARY KEY (idRol);
-
-
 
 CREATE TABLE tb_seccion
 (
@@ -673,13 +670,13 @@ insert into tb_distrito values (4,'Chorrillos','LIMA09');
 -- tb_rol;
 select * from tb_rol;
 -- ---------------------------------------------------
-insert into tb_rol values (1,'Administrador',1);
-insert into tb_rol values (2,'Docente',1);
-insert into tb_rol values (3,'Coordinador',1);
-insert into tb_rol values (4,'Psicologo',1);
-insert into tb_rol values (5,'Psicologo/Docente',1);
-insert into tb_rol values (6,'Estudiante',1);
-insert into tb_rol values (7,'Secretaria',1);
+insert into tb_rol values (1,'Administrador','admin',1);
+insert into tb_rol values (2,'Docente','teacher',1);
+insert into tb_rol values (3,'Coordinador','coach',1);
+insert into tb_rol values (4,'Psicologo','psychologist',1);
+insert into tb_rol values (5,'Psicologo/Docente','teacher-psychologist',1);
+insert into tb_rol values (6,'Estudiante','student',1);
+insert into tb_rol values (7,'Secretaria','secretary',1);
 -- ---------------------------------------------------
 -- tb_genero;
 -- ---------------------------------------------------
