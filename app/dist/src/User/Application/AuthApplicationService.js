@@ -48,7 +48,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var inversify_1 = require("inversify");
-var HttpException_1 = require("./../../Common/Exception/HttpException");
+var AuthException_1 = require("./Exception/AuthException");
 var AuthApplicationService = /** @class */ (function () {
     function AuthApplicationService(
         // @ts-ignore
@@ -64,13 +64,13 @@ var AuthApplicationService = /** @class */ (function () {
                     case 1:
                         rol = _a.sent();
                         if (typeof rol === 'undefined') {
-                            throw new HttpException_1.HttpException(400, 'el rol no existe');
+                            throw new AuthException_1.AuthException('el rol no existe');
                         }
                         return [4 /*yield*/, this.userRepository.getByNickAndPassword(authInput.user(), authInput.password(), authInput.rol())];
                     case 2:
                         user = _a.sent();
                         if (typeof user === 'undefined') {
-                            throw new HttpException_1.HttpException(400, 'error el usuario no existe');
+                            throw new AuthException_1.AuthException('error el usuario no existe');
                         }
                         return [2 /*return*/, user];
                 }

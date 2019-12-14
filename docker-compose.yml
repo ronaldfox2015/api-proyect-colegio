@@ -9,6 +9,7 @@ services:
       - 3307:3306
     volumes:
       - ./docker/mysql/sql:/docker-entrypoint-initdb.d
+      - ./docker/mysql/storage:/var/lib/mysql
     command: mysqld --sql_mode=""
   backend:
     image: $IMAGE_DEPLOY

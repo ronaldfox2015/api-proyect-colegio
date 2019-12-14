@@ -2,9 +2,9 @@ import { injectable } from 'inversify';
 import {
   Connection,
   createConnection,
+  Entity,
   EntityManager,
-  Repository,
-  Entity
+  Repository
 } from 'typeorm';
 import { logger } from '../../../../Utils';
 

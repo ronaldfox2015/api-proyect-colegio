@@ -5,8 +5,8 @@ import { Request, Response, NextFunction, ErrorRequestHandler } from 'express';
 import { controller, httpPost, httpGet } from 'inversify-express-utils';
 import { AuthApplicationService } from './../../User/Application/AuthApplicationService';
 // tslint:disable-next-line: ordered-imports
-import * as HTTP_CODES from 'http-status-codes';
 import { AuthInput } from './../../User/Application/Input/AuthInput';
+import { logger } from '../../Utils';
 // tslint:disable-next-line: ordered-imports
 
 @injectable()
@@ -33,9 +33,7 @@ export class UserController {
       );
       response.send(apiResponse);
     } catch (error) {
-      response
-        .status(error.status)
-        .json({ error: error.message, status: error.status });
+      response.status(error.status).json(error);
     }
   }
 }

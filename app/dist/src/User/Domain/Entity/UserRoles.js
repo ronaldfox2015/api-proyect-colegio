@@ -39,8 +39,8 @@ var UserRoles = /** @class */ (function () {
         __metadata("design:type", String)
     ], UserRoles.prototype, "status", void 0);
     __decorate([
-        typeorm_1.OneToOne(function (type) { return User_1.User; }, function (user) { return user.roles.id; }),
-        __metadata("design:type", User_1.User)
+        typeorm_1.OneToMany(function (type) { return User_1.User; }, function (user) { return user.roles; }),
+        __metadata("design:type", Array)
     ], UserRoles.prototype, "users", void 0);
     UserRoles = __decorate([
         typeorm_1.Entity('tb_rol')

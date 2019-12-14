@@ -50,7 +50,7 @@ install: ## install de paquetes
 	make tast EXECUTE="install";
 	sudo chmod -R 777 app/*;
 
-tast: ## tast: make tast EXECUTE=remove global react-native-cli
+tast: ## tast: make tast EXECUTE="add bcrypt"
 	docker run -it -v "$(PWD)/app:/app" -w "/app" $(IMAGE_DEPLOY) yarn $(EXECUTE)
 
 ssh: ## ssh: make ssh

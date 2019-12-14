@@ -10,7 +10,7 @@ import { container } from './ioc-container';
 import { logger } from './Utils';
 
 import { AppConfig } from '../config/app-config';
-import { HttpException } from './Common/Exception/HttpException';
+import { Request, Response, NextFunction } from 'express';
 // start the server
 const server = new InversifyExpressServer(container);
 server.setConfig((App: any) => {
@@ -19,7 +19,8 @@ server.setConfig((App: any) => {
   const compress = require('compression');
   const methodOverride = require('method-override');
 
-  App.use(cookieParser())
+  App.use(errorHandler)
+    .use(cookieParser())
     .use(compress({}))
     .use(methodOverride())
     .use(
@@ -45,15 +46,16 @@ function logErrors(err, req, res, next) {
   next(err);
 }
 
-function clientErrorHandler(err, req, res, next) {
-  if (req.xhr) {
-    res.status(500).send({ error: 'Something failed!' });
-  } else {
-    next(err);
+function errorHandler(
+  err,
+  request: Request,
+  response: Response,
+  next: NextFunction
+) {
+  logger.info(err);
+  if (request) {
+    return next(err);
   }
-}
-
-function errorHandler(err, req, res, next) {
-  res.status(500);
-  res.render('error', { error: err });
+  response.status(500);
+  response.render('error', { error: err });
 }

@@ -51,6 +51,7 @@ var inversify_1 = require("inversify");
 // tslint:disable-next-line: ordered-imports
 var inversify_express_utils_1 = require("inversify-express-utils");
 var AuthApplicationService_1 = require("./../../User/Application/AuthApplicationService");
+// tslint:disable-next-line: ordered-imports
 var AuthInput_1 = require("./../../User/Application/Input/AuthInput");
 // tslint:disable-next-line: ordered-imports
 var UserController = /** @class */ (function () {
@@ -75,9 +76,7 @@ var UserController = /** @class */ (function () {
                         return [3 /*break*/, 3];
                     case 2:
                         error_1 = _a.sent();
-                        response
-                            .status(error_1.status)
-                            .json({ error: error_1.message, status: error_1.status });
+                        response.status(error_1.status).json(error_1);
                         return [3 /*break*/, 3];
                     case 3: return [2 /*return*/];
                 }

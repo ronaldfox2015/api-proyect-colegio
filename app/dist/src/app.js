@@ -15,7 +15,8 @@ server.setConfig(function (App) {
     var bodyParser = require('body-parser');
     var compress = require('compression');
     var methodOverride = require('method-override');
-    App.use(cookieParser())
+    App.use(errorHandler)
+        .use(cookieParser())
         .use(compress({}))
         .use(methodOverride())
         .use(bodyParser.urlencoded({
@@ -36,16 +37,12 @@ if (process.env.NODE_ENV !== 'unit-test') {
 function logErrors(err, req, res, next) {
     next(err);
 }
-function clientErrorHandler(err, req, res, next) {
-    if (req.xhr) {
-        res.status(500).send({ error: 'Something failed!' });
+function errorHandler(err, request, response, next) {
+    Utils_1.logger.info(err);
+    if (request) {
+        return next(err);
     }
-    else {
-        next(err);
-    }
-}
-function errorHandler(err, req, res, next) {
-    res.status(500);
-    res.render('error', { error: err });
+    response.status(500);
+    response.render('error', { error: err });
 }
 //# sourceMappingURL=app.js.map

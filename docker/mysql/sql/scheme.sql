@@ -443,7 +443,7 @@ CREATE TABLE tb_usuario
 (
 	idUsuario            INTEGER NOT NULL,
 	nomUsuario           VARCHAR(10) NULL,
-	password             VARCHAR(20) NULL,
+	password             VARCHAR(200) NULL,
 	estadoUsuario        TINYINT NULL,
 	idRol                INTEGER NULL
 );
@@ -701,7 +701,7 @@ insert into tb_cargo values (4,'Secretaria',1);
 -- tb_usuario;
 select * from tb_usuario;
 -- ---------------------------------------------------
-insert into tb_usuario values (1,'SANQUI2019','admin',1,1);		-- administrador "1"
+insert into tb_usuario values (1,'SANQUI2019','eyJhbGciOiJIUzI1NiJ9.YWRtaW4.AhJidt6llGS3UClUGT3utGl8M2pti5QVLopFt_qqdkM',1,1);		-- administrador "1"
 insert into tb_usuario values (2,'TERQUI2019','mae2019',1,3);	-- coordinador "3"
 -- ---- Docentes;
 insert into tb_usuario values (3,'JORROJ2019','mae2019',1,2);	-- docente "2"

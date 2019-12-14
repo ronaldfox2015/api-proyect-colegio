@@ -1,8 +1,8 @@
 import { inject, injectable } from 'inversify';
-import { HttpException } from './../../Common/Exception/HttpException';
 import { User } from './../Domain/Entity/User';
 import { UserRoles } from './../Domain/Entity/UserRoles';
 import { UserRepository } from './../Domain/Repository/UserRepository';
+import { AuthException } from './Exception/AuthException';
 import { AuthInput } from './Input/AuthInput';
 
 @injectable()
@@ -19,7 +19,7 @@ export class AuthApplicationService {
     );
 
     if (typeof rol === 'undefined') {
-      throw new HttpException(400, 'el rol no existe');
+      throw new AuthException('el rol no existe');
     }
 
     const user:
@@ -31,7 +31,7 @@ export class AuthApplicationService {
     );
 
     if (typeof user === 'undefined') {
-      throw new HttpException(400, 'error el usuario no existe');
+      throw new AuthException('error el usuario no existe');
     }
     return user;
   }

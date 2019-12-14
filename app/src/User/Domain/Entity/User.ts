@@ -2,9 +2,9 @@ import {
   Column,
   Entity,
   JoinColumn,
-  OneToOne,
-  PrimaryGeneratedColumn,
-  Table
+  ManyToOne,
+  OneToMany,
+  PrimaryGeneratedColumn
 } from 'typeorm';
 import { UserRoles } from './UserRoles';
 
@@ -30,13 +30,11 @@ export class User {
   })
   status: string;
 
-  @OneToOne(
+  @ManyToOne(
     type => UserRoles,
     roles => roles.id
   )
-  @JoinColumn({
-    name: 'idRol'
-  })
+  @JoinColumn({ name: 'idRol' })
   roles: UserRoles;
 
   static create(
@@ -49,7 +47,6 @@ export class User {
     user.id = id;
     user.nick = nick;
     user.password = password;
-    user.roles = roles;
     return user;
   }
 }
