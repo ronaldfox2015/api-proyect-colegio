@@ -6,8 +6,15 @@ export const AppConfig = {
       password: '1234',
       database: 'bd_iepmae',
       host: 'mysql',
-      dialect: "mysql",
-      port: 3306
+      dialect: 'mysql',
+      type: 'mysql',
+      port: 3306,
+      //  logging: true,
+      entities: []
     }
+  },
+  jwtConfig: {
+    valorEncriptacion: 10,
+    key: 'colegio'
   }
 };

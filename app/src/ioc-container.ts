@@ -1,49 +1,44 @@
+// @ts-ignore
+import { Container } from 'inversify';
+import { interfaces, TYPE } from 'inversify-express-utils';
 import 'reflect-metadata';
 import { AppConfig } from './../config/app-config';
-import { interfaces, TYPE } from 'inversify-express-utils';
-import { Container } from 'inversify';
-// infraestructura
-import { TypeORMUserRepository } from './education-system/infrastructure/typeorm/mysql/user-repository';
-
-import { RepositoryDb } from './education-system/infrastructure/typeorm/mysql/repository-db';
-
-// domain
-import { UserRepository } from './education-system/domain/repository/user-repository';
-
-import { Customer } from './../src/education-system/domain/customer';
-import { User } from './../src/education-system/domain/entity/user';
-
+import { Mysql } from './Common/Adapter/Persistence/TypeOrm/Mysql';
 // application
-import { UserApplicationService } from './education-system/application/user/user-application-service';
-
+import { UserApplicationService } from './User/Application/UserApplicationService';
+import { User } from './User/Domain/Entity/User';
+import { UserRoles } from './User/Domain/Entity/UserRoles';
+// domain
+import { UserRepository } from './User/Domain/Repository/UserRepository';
+// infraestructura
+import { TypeORMUserRepository } from './User/Infrastructure/Repository/TypeORMUserRepository';
 // controller
-import { EmailController } from './web/rest/email.contoller';
-import { AuthController } from './web/rest/auth.controller';
+import { UserController } from './Web/Rest/user.controller';
 
 const container = new Container();
+const mysqlConfig = AppConfig.bd.mysql;
+const jwtConfig = AppConfig.jwtConfig;
+mysqlConfig.entities = [User, UserRoles];
+const TypeOrmMYSQL = new Mysql(AppConfig.bd.mysql);
 // infraestructura
-const TypeOrmMYSQL = new RepositoryDb(
-  AppConfig.bd.mysql.dialect,
-  AppConfig.bd.mysql.host,
-  AppConfig.bd.mysql.port,
-  AppConfig.bd.mysql.username,
-  AppConfig.bd.mysql.password,
-  AppConfig.bd.mysql.database,
-  [Customer,User]
-);
-
-container.bind<RepositoryDb>('RepositoryDb').toConstantValue(TypeOrmMYSQL);
-container.bind<UserRepository>('UserRepository').to(TypeORMUserRepository).inSingletonScope();
+container.bind<Mysql>('Mysql').toConstantValue(TypeOrmMYSQL);
+const UserRepositoryConst = new TypeORMUserRepository(TypeOrmMYSQL, jwtConfig);
+container
+  .bind<UserRepository>('UserRepository')
+  .toConstantValue(UserRepositoryConst);
 
 // application
-container.bind<UserApplicationService>('UserApplicationService').to(UserApplicationService).inSingletonScope();
+container
+  .bind<UserApplicationService>('UserApplicationService')
+  .to(UserApplicationService)
+  .inSingletonScope();
 
 // controller
-container.bind<interfaces.Controller>(TYPE.Controller).to(EmailController).inSingletonScope().whenTargetNamed('EmailController');
-container.bind<interfaces.Controller>(TYPE.Controller).to(AuthController).inSingletonScope().whenTargetNamed('AuthController');
+container
+  .bind<interfaces.Controller>(TYPE.Controller)
+  .to(UserController)
+  .inSingletonScope()
+  .whenTargetNamed('UserController');
 
 // Config
-
-export {
-  container
-};
+export { container };

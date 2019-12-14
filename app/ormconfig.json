@@ -1,25 +1,9 @@
 {
-   "type": "mysql",
-   "host": "mysql",
-   "port": 3306,
-   "username": "root",
-   "password": "1234",
-   "database": "bd_iepmae",
-   "synchronize": true,
-   "logging": true,
-   "entities": [
-      "dist/src/education-system/domain/entity/**/*.js"
-  ],
-
-   "migrations": [
-      "src/migration/**/*.js"
-   ],
-   "subscribers": [
-      "src/subscriber/**/*.ts"
-   ],
-   "cli": {
-      "entitiesDir": "src/education-system/domain/entity",
-      "migrationsDir": "src/migration",
-      "subscribersDir": "src/subscriber"
-   }
+    "type": "mongodb",
+    "host": "localhost",
+    "port": 27017,
+    "database": "node_ts_seed",
+    "entities": [
+        "dist/src/domain/**/*.js"
+    ]
 }
