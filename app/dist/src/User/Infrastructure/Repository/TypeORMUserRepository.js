@@ -51,8 +51,8 @@ var inversify_1 = require("inversify");
 var encryption_1 = require("../../../Utils/encryption");
 var User_1 = require("../../Domain/Entity/User");
 var UserRoles_1 = require("../../Domain/Entity/UserRoles");
+var MysqlException_1 = require("../Exception/MysqlException");
 var Mysql_1 = require("./../../../Common/Adapter/Persistence/TypeOrm/Mysql");
-var RepositoryException_1 = require("../Exception/RepositoryException");
 var TypeORMUserRepository = /** @class */ (function () {
     function TypeORMUserRepository(mysql, jwtConfig) {
         this.mysql = mysql;
@@ -91,7 +91,7 @@ var TypeORMUserRepository = /** @class */ (function () {
                         });
                     }); })
                         .catch(function (error) {
-                        throw new RepositoryException_1.RepositoryException(error.sqlMessage);
+                        throw new MysqlException_1.MysqlException(error.sqlMessage);
                     })];
             });
         });
@@ -121,7 +121,7 @@ var TypeORMUserRepository = /** @class */ (function () {
                         });
                     }); })
                         .catch(function (error) {
-                        throw new RepositoryException_1.RepositoryException(error.sqlMessage);
+                        throw new MysqlException_1.MysqlException(error.sqlMessage);
                     })];
             });
         });

@@ -1,12 +1,11 @@
 import { inject, injectable } from 'inversify';
 import { Connection } from 'typeorm';
-import { HttpException } from '../../../Common/Exception/HttpException';
 import { encryption } from '../../../Utils/encryption';
 import { User } from '../../Domain/Entity/User';
 import { UserRoles } from '../../Domain/Entity/UserRoles';
 import { UserRepository } from '../../Domain/Repository/UserRepository';
+import { MysqlException } from '../Exception/MysqlException';
 import { Mysql } from './../../../Common/Adapter/Persistence/TypeOrm/Mysql';
-import { RepositoryException } from '../Exception/RepositoryException';
 
 @injectable()
 export class TypeORMUserRepository implements UserRepository {
@@ -42,7 +41,7 @@ export class TypeORMUserRepository implements UserRepository {
         return responseUser.getOne();
       })
       .catch(error => {
-        throw new RepositoryException(error.sqlMessage);
+        throw new MysqlException(error.sqlMessage);
       });
   }
 
@@ -61,7 +60,7 @@ export class TypeORMUserRepository implements UserRepository {
         return responseUserRoles;
       })
       .catch(error => {
-        throw new RepositoryException(error.sqlMessage);
+        throw new MysqlException(error.sqlMessage);
       });
   }
 }
