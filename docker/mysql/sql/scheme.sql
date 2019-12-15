@@ -702,38 +702,38 @@ insert into tb_cargo values (4,'Secretaria',1);
 select * from tb_usuario;
 -- ---------------------------------------------------
 insert into tb_usuario values (1,'SANQUI2019','eyJhbGciOiJIUzI1NiJ9.YWRtaW4.AhJidt6llGS3UClUGT3utGl8M2pti5QVLopFt_qqdkM',1,1);		-- administrador "1"
-insert into tb_usuario values (2,'TERQUI2019','mae2019',1,3);	-- coordinador "3"
+insert into tb_usuario values (2,'TERQUI2019','eyJhbGciOiJIUzI1NiJ9.YWRtaW4.AhJidt6llGS3UClUGT3utGl8M2pti5QVLopFt_qqdkM',1,3);	-- coordinador "3"
 -- ---- Docentes;
-insert into tb_usuario values (3,'JORROJ2019','mae2019',1,2);	-- docente "2"
-insert into tb_usuario values (4,'LILESQ2019','mae2019',1,2);
-insert into tb_usuario values (5,'REYVER2019','mae2019',1,2);
-insert into tb_usuario values (6,'FABSAL2019','mae2019',1,2);
-insert into tb_usuario values (7,'NANQUI2019','mae2019',1,2);
+insert into tb_usuario values (3,'JORROJ2019','eyJhbGciOiJIUzI1NiJ9.YWRtaW4.AhJidt6llGS3UClUGT3utGl8M2pti5QVLopFt_qqdkM',1,2);	-- docente "2"
+insert into tb_usuario values (4,'LILESQ2019','eyJhbGciOiJIUzI1NiJ9.YWRtaW4.AhJidt6llGS3UClUGT3utGl8M2pti5QVLopFt_qqdkM',1,2);
+insert into tb_usuario values (5,'REYVER2019','eyJhbGciOiJIUzI1NiJ9.YWRtaW4.AhJidt6llGS3UClUGT3utGl8M2pti5QVLopFt_qqdkM',1,2);
+insert into tb_usuario values (6,'FABSAL2019','eyJhbGciOiJIUzI1NiJ9.YWRtaW4.AhJidt6llGS3UClUGT3utGl8M2pti5QVLopFt_qqdkM',1,2);
+insert into tb_usuario values (7,'NANQUI2019','eyJhbGciOiJIUzI1NiJ9.YWRtaW4.AhJidt6llGS3UClUGT3utGl8M2pti5QVLopFt_qqdkM',1,2);
 
 -- ----- Alumnos;
-insert into tb_usuario values ( 8,'ZOEALE2019','mae2019',1,6);  -- estudiante "6"
-insert into tb_usuario values ( 9,'MATAPA2019','mae2019',1,6);
-insert into tb_usuario values (10,'ADRBER2019','mae2019',1,6);
-insert into tb_usuario values (11,'DOMBRA2019','mae2019',1,6);
-insert into tb_usuario values (12,'VICCAR2019','mae2019',1,6);
-insert into tb_usuario values (13,'AXECHI2019','mae2019',1,6);
-insert into tb_usuario values (14,'ADRCOR2019','mae2019',1,6);
-insert into tb_usuario values (15,'ADRCUR2019','mae2019',1,6);
-insert into tb_usuario values (16,'ARIGAO2019','mae2019',1,6);
-insert into tb_usuario values (17,'ALEGAR2019','mae2019',1,6);
-insert into tb_usuario values (18,'JHAALV2019','mae2019',1,6);
-insert into tb_usuario values (19,'JAVHUA2019','mae2019',1,6);
-insert into tb_usuario values (20,'CAMLAG2019','mae2019',1,6);
-insert into tb_usuario values (21,'LUACAB2019','mae2019',1,6);
-insert into tb_usuario values (22,'ANAMIR2019','mae2019',1,6);
-insert into tb_usuario values (23,'ANDPIA2019','mae2019',1,6);
-insert into tb_usuario values (24,'TATPRA2019','mae2019',1,6);
-insert into tb_usuario values (25,'ROYSOT2019','mae2019',1,6);
-insert into tb_usuario values (26,'EYMVIL2019','mae2019',1,6);
-insert into tb_usuario values (27,'MAYZAP2019','mae2019',1,6);
+insert into tb_usuario values ( 8,'ZOEALE2019','eyJhbGciOiJIUzI1NiJ9.YWRtaW4.AhJidt6llGS3UClUGT3utGl8M2pti5QVLopFt_qqdkM',1,6);  -- estudiante "6"
+insert into tb_usuario values ( 9,'MATAPA2019','eyJhbGciOiJIUzI1NiJ9.YWRtaW4.AhJidt6llGS3UClUGT3utGl8M2pti5QVLopFt_qqdkM',1,6);
+insert into tb_usuario values (10,'ADRBER2019','eyJhbGciOiJIUzI1NiJ9.YWRtaW4.AhJidt6llGS3UClUGT3utGl8M2pti5QVLopFt_qqdkM',1,6);
+insert into tb_usuario values (11,'DOMBRA2019','eyJhbGciOiJIUzI1NiJ9.YWRtaW4.AhJidt6llGS3UClUGT3utGl8M2pti5QVLopFt_qqdkM',1,6);
+insert into tb_usuario values (12,'VICCAR2019','eyJhbGciOiJIUzI1NiJ9.YWRtaW4.AhJidt6llGS3UClUGT3utGl8M2pti5QVLopFt_qqdkM',1,6);
+insert into tb_usuario values (13,'AXECHI2019','eyJhbGciOiJIUzI1NiJ9.YWRtaW4.AhJidt6llGS3UClUGT3utGl8M2pti5QVLopFt_qqdkM',1,6);
+insert into tb_usuario values (14,'ADRCOR2019','eyJhbGciOiJIUzI1NiJ9.YWRtaW4.AhJidt6llGS3UClUGT3utGl8M2pti5QVLopFt_qqdkM',1,6);
+insert into tb_usuario values (15,'ADRCUR2019','eyJhbGciOiJIUzI1NiJ9.YWRtaW4.AhJidt6llGS3UClUGT3utGl8M2pti5QVLopFt_qqdkM',1,6);
+insert into tb_usuario values (16,'ARIGAO2019','eyJhbGciOiJIUzI1NiJ9.YWRtaW4.AhJidt6llGS3UClUGT3utGl8M2pti5QVLopFt_qqdkM',1,6);
+insert into tb_usuario values (17,'ALEGAR2019','eyJhbGciOiJIUzI1NiJ9.YWRtaW4.AhJidt6llGS3UClUGT3utGl8M2pti5QVLopFt_qqdkM',1,6);
+insert into tb_usuario values (18,'JHAALV2019','eyJhbGciOiJIUzI1NiJ9.YWRtaW4.AhJidt6llGS3UClUGT3utGl8M2pti5QVLopFt_qqdkM',1,6);
+insert into tb_usuario values (19,'JAVHUA2019','eyJhbGciOiJIUzI1NiJ9.YWRtaW4.AhJidt6llGS3UClUGT3utGl8M2pti5QVLopFt_qqdkM',1,6);
+insert into tb_usuario values (20,'CAMLAG2019','eyJhbGciOiJIUzI1NiJ9.YWRtaW4.AhJidt6llGS3UClUGT3utGl8M2pti5QVLopFt_qqdkM',1,6);
+insert into tb_usuario values (21,'LUACAB2019','eyJhbGciOiJIUzI1NiJ9.YWRtaW4.AhJidt6llGS3UClUGT3utGl8M2pti5QVLopFt_qqdkM',1,6);
+insert into tb_usuario values (22,'ANAMIR2019','eyJhbGciOiJIUzI1NiJ9.YWRtaW4.AhJidt6llGS3UClUGT3utGl8M2pti5QVLopFt_qqdkM',1,6);
+insert into tb_usuario values (23,'ANDPIA2019','eyJhbGciOiJIUzI1NiJ9.YWRtaW4.AhJidt6llGS3UClUGT3utGl8M2pti5QVLopFt_qqdkM',1,6);
+insert into tb_usuario values (24,'TATPRA2019','eyJhbGciOiJIUzI1NiJ9.YWRtaW4.AhJidt6llGS3UClUGT3utGl8M2pti5QVLopFt_qqdkM',1,6);
+insert into tb_usuario values (25,'ROYSOT2019','eyJhbGciOiJIUzI1NiJ9.YWRtaW4.AhJidt6llGS3UClUGT3utGl8M2pti5QVLopFt_qqdkM',1,6);
+insert into tb_usuario values (26,'EYMVIL2019','eyJhbGciOiJIUzI1NiJ9.YWRtaW4.AhJidt6llGS3UClUGT3utGl8M2pti5QVLopFt_qqdkM',1,6);
+insert into tb_usuario values (27,'MAYZAP2019','eyJhbGciOiJIUzI1NiJ9.YWRtaW4.AhJidt6llGS3UClUGT3utGl8M2pti5QVLopFt_qqdkM',1,6);
 -- ----- Administrativo;
-insert into tb_usuario values (28,'EVEBAR2019','mae2019',1,7);	-- secretaria "7"
-insert into tb_usuario values (29,'ANACAS2019','mae2019',1,4);	-- psicologo "4"
+insert into tb_usuario values (28,'EVEBAR2019','eyJhbGciOiJIUzI1NiJ9.YWRtaW4.AhJidt6llGS3UClUGT3utGl8M2pti5QVLopFt_qqdkM',1,7);	-- secretaria "7"
+insert into tb_usuario values (29,'ANACAS2019','eyJhbGciOiJIUzI1NiJ9.YWRtaW4.AhJidt6llGS3UClUGT3utGl8M2pti5QVLopFt_qqdkM',1,4);	-- psicologo "4"
 -- ---------------------------------------------------
 -- tb_docente;
 -- ---------------------------------------------------
