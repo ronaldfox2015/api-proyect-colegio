@@ -709,7 +709,6 @@ insert into tb_usuario values (4,'LILESQ2019','eyJhbGciOiJIUzI1NiJ9.YWRtaW4.AhJi
 insert into tb_usuario values (5,'REYVER2019','eyJhbGciOiJIUzI1NiJ9.YWRtaW4.AhJidt6llGS3UClUGT3utGl8M2pti5QVLopFt_qqdkM',1,2);
 insert into tb_usuario values (6,'FABSAL2019','eyJhbGciOiJIUzI1NiJ9.YWRtaW4.AhJidt6llGS3UClUGT3utGl8M2pti5QVLopFt_qqdkM',1,2);
 insert into tb_usuario values (7,'NANQUI2019','eyJhbGciOiJIUzI1NiJ9.YWRtaW4.AhJidt6llGS3UClUGT3utGl8M2pti5QVLopFt_qqdkM',1,2);
-
 -- ----- Alumnos;
 insert into tb_usuario values ( 8,'ZOEALE2019','eyJhbGciOiJIUzI1NiJ9.YWRtaW4.AhJidt6llGS3UClUGT3utGl8M2pti5QVLopFt_qqdkM',1,6);  -- estudiante "6"
 insert into tb_usuario values ( 9,'MATAPA2019','eyJhbGciOiJIUzI1NiJ9.YWRtaW4.AhJidt6llGS3UClUGT3utGl8M2pti5QVLopFt_qqdkM',1,6);
