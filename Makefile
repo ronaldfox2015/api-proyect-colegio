@@ -77,18 +77,13 @@ run-migration: ## inicializar proyecto: make migration
 	make mysql
 	docker run -it -p 3000:3000 --name $(PROJECT_NAME) $(DOCKER_NETWORK)  -v "$(PWD)/app:/app" -w "/app"  $(IMAGE_DEPLOY) yarn run-migration
 
-up:  ## inicializar proyecto: make up
+up: ## inicialiar mysql y applicacion
 	echo $(VIRTUAL_HOST);
 	@IMAGE_DEPLOY=$(IMAGE_DEPLOY) \
 	PROJECT_NAME=$(PROJECT_NAME) \
 	VIRTUAL_HOST=$(VIRTUAL_HOST) \
 	docker-compose -p $(PROJECT_NAME) up
-stop: ## detiene todo el stack: make down
-	echo $(VIRTUAL_HOST);
-	@IMAGE_DEPLOY=$(IMAGE_DEPLOY) \
-	PROJECT_NAME=$(PROJECT_NAME) \
-	VIRTUAL_HOST=$(VIRTUAL_HOST) \
-	docker-compose -p $(PROJECT_NAME) down
+
 test: ## inicialiar mysql y applicacion
 	make mysql;
 	docker run -it -p 3000:3000 --name $(PROJECT_NAME)  -v "$(PWD)/app:/app" -w "/app"  $(IMAGE_DEPLOY) yarn test:unit

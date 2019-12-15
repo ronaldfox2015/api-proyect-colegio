@@ -19,8 +19,7 @@ server.setConfig((App: any) => {
   const compress = require('compression');
   const methodOverride = require('method-override');
 
-  App.use(errorHandler)
-    .use(cookieParser())
+  App.use(cookieParser())
     .use(compress({}))
     .use(methodOverride())
     .use(

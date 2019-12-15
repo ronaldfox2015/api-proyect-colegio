@@ -1,12 +1,12 @@
+// tslint:disable-next-line: ordered-imports
+import { ErrorRequestHandler, NextFunction, Request, Response } from 'express';
 import { inject, injectable } from 'inversify';
 // tslint:disable-next-line: ordered-imports
-import { Request, Response, NextFunction, ErrorRequestHandler } from 'express';
-// tslint:disable-next-line: ordered-imports
-import { controller, httpPost, httpGet } from 'inversify-express-utils';
+import { controller, httpGet, httpPost } from 'inversify-express-utils';
+import { logger } from '../../Utils';
 import { AuthApplicationService } from './../../User/Application/AuthApplicationService';
 // tslint:disable-next-line: ordered-imports
 import { AuthInput } from './../../User/Application/Input/AuthInput';
-import { logger } from '../../Utils';
 // tslint:disable-next-line: ordered-imports
 
 @injectable()
@@ -14,7 +14,7 @@ import { logger } from '../../Utils';
 export class UserController {
   // tslint:disable-next-line: no-empty
   constructor(
-    @inject('UserApplicationService') private userAppSvc: AuthApplicationService
+    @inject('AuthApplicationService') private userAppSvc: AuthApplicationService
   ) {}
 
   @httpPost('/user')
@@ -33,7 +33,7 @@ export class UserController {
       );
       response.send(apiResponse);
     } catch (error) {
-      response.status(error.status).json(error);
+      response.status(error.code).json(error);
     }
   }
 }

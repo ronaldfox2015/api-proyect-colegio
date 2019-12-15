@@ -1,8 +1,8 @@
 export class AuthException {
-  status: number;
+  code: number;
   message: string;
-  constructor(message: string | any, status: number = 400) {
+  constructor(message: string | any, code: number = 400) {
     this.message = message;
-    this.status = status;
+    this.code = code;
   }
 }

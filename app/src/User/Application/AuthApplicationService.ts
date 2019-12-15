@@ -1,19 +1,19 @@
 import { inject, injectable } from 'inversify';
+import { logger } from '../../Utils/logger';
+import { IUserRepository } from '../Domain/Repository/IUserRepository';
 import { User } from './../Domain/Entity/User';
 import { UserRoles } from './../Domain/Entity/UserRoles';
-import { UserRepository } from './../Domain/Repository/UserRepository';
 import { AuthException } from './Exception/AuthException';
 import { AuthInput } from './Input/AuthInput';
+import { AuthOuput } from './Ouput/AuthOuput';
 
 @injectable()
-// @ts-ignore
 export class AuthApplicationService {
   constructor(
-    // @ts-ignore
-    @inject('UserRepository') private userRepository: UserRepository
+    @inject('UserRepository') private userRepository: IUserRepository
   ) {}
 
-  async login(authInput: AuthInput): Promise<User> {
+  async login(authInput: AuthInput): Promise<AuthOuput> {
     const rol: UserRoles | undefined = await this.userRepository.role(
       authInput.rol()
     );
@@ -33,6 +33,6 @@ export class AuthApplicationService {
     if (typeof user === 'undefined') {
       throw new AuthException('error el usuario no existe');
     }
-    return user;
+    return new AuthOuput(200, user);
   }
 }

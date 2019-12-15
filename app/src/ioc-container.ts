@@ -4,14 +4,15 @@ import { interfaces, TYPE } from 'inversify-express-utils';
 import 'reflect-metadata';
 import { AppConfig } from './../config/app-config';
 import { Mysql } from './Common/Adapter/Persistence/TypeOrm/Mysql';
+import { AuthApplicationService } from './User/Application/AuthApplicationService';
 // application
 import { UserApplicationService } from './User/Application/UserApplicationService';
 import { User } from './User/Domain/Entity/User';
 import { UserRoles } from './User/Domain/Entity/UserRoles';
 // domain
-import { UserRepository } from './User/Domain/Repository/UserRepository';
+import { IUserRepository } from './User/Domain/Repository/IUserRepository';
 // infraestructura
-import { TypeORMUserRepository } from './User/Infrastructure/Repository/TypeORMUserRepository';
+import { UserRepository } from './User/Infrastructure/Repository/TypeOrm/UserRepositoy';
 // controller
 import { UserController } from './Web/Rest/user.controller';
 
@@ -22,15 +23,20 @@ mysqlConfig.entities = [User, UserRoles];
 const TypeOrmMYSQL = new Mysql(AppConfig.bd.mysql);
 // infraestructura
 container.bind<Mysql>('Mysql').toConstantValue(TypeOrmMYSQL);
-const UserRepositoryConst = new TypeORMUserRepository(TypeOrmMYSQL, jwtConfig);
+const UserRepositoryConst = new UserRepository(TypeOrmMYSQL, jwtConfig);
 container
-  .bind<UserRepository>('UserRepository')
+  .bind<IUserRepository>('UserRepository')
   .toConstantValue(UserRepositoryConst);
 
 // application
 container
   .bind<UserApplicationService>('UserApplicationService')
   .to(UserApplicationService)
+  .inSingletonScope();
+
+container
+  .bind<AuthApplicationService>('AuthApplicationService')
+  .to(AuthApplicationService)
   .inSingletonScope();
 
 // controller

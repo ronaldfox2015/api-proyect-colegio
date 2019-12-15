@@ -1,6 +1,6 @@
 // tslint:disable-next-line: ordered-imports
 import { injectable, inject } from 'inversify';
-import { UserRepository } from './../Domain/Repository/UserRepository';
+import { IUserRepository } from '../Domain/Repository/IUserRepository';
 // tslint:disable-next-line: ordered-imports
 import { User } from './../Domain/Entity/User';
 import { AuthInput } from './Input/AuthInput';
@@ -12,7 +12,9 @@ import { UserRoles } from '../Domain/Entity/UserRoles';
 
 @injectable()
 export class UserApplicationService {
-  constructor(@inject('UserRepository') private _userService: UserRepository) {}
+  constructor(
+    @inject('UserRepository') private _userService: IUserRepository
+  ) {}
 
   async login(authInput: AuthInput): Promise<User> {
     const rol: UserRoles | undefined = await this._userService.role(

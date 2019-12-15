@@ -2231,3 +2231,143 @@
 {"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:15:36.083Z"}
 {"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:15:36.564Z"}
 {"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:16:28.985Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:31:18.307Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:31:30 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:31:30.310Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:31:30 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:31:30.834Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:31:31 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:31:31.675Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:31:32 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:31:32.471Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:39:26.924Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:39:35.083Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:40:03.750Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:40:57.737Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:41:26.027Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:41:27.520Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:42:28.218Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:42:40.537Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:42:59.561Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:43:05.033Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:43:25.396Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:43:44.595Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:43:53.107Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:44:43.965Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:44:44.490Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:44:44.998Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:45:00.729Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:45:02.730Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:45:04.194Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:45:07 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:45:07.998Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:45:08 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:45:08.902Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:45:11 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:45:11.043Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:45:43.332Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:45:48.258Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:45:48 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:45:48.787Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:45:49 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:45:49.446Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:45:51 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:45:51.140Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:46:13.256Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:46:14.307Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:46:16 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:46:16.369Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:46:27 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:46:27.688Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:46:37.787Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:46:39 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:46:39.184Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:46:45 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:46:45.620Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:47:35.357Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:48:28.251Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:48:31 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:48:31.221Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:48:34 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:48:34.489Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:48:40 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:48:40.946Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:48:53.052Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:48:57 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:48:57.313Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:52:00.926Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:52:24.728Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:52:37.226Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:52:38.458Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:52:41 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:52:41.007Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:52:41 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:52:41.860Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:52:42 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:52:42.747Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:52:46 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:52:46.292Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:53:22.468Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:53:28 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:53:28.042Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:53:38.264Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:53:43.287Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:53:48.515Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:53:52 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:53:52.504Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:54:12.303Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:54:13 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:54:13.192Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:54:20 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:54:20.582Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:54:44.831Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:54:45.344Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:54:54 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:54:54.956Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:54:55 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:54:55.528Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:54:56 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:54:56.082Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:54:56 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:54:56.507Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:54:56 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:54:56.915Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:54:58 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:54:58.567Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:55:52.231Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:56:08 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:56:08.489Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:56:09 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:56:09.951Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:56:54 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:56:54.333Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:56:56 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:56:56.072Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:56:56 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:56:56.622Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:56:57 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:56:57.039Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:56:58 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:56:58.214Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:57:05 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:57:05.494Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:57:09 +0000] \"POST /v1/auth/login HTTP/1.1\" 400 53 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:57:09.479Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:57:30 +0000] \"POST /v1/auth/login HTTP/1.1\" 400 53 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:57:30.979Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:57:35 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:57:35.557Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:58:01 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:58:01.186Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:59:12.537Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T21:59:31.048Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:59:37 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:59:37.491Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:21:59:51 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T21:59:51.657Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:22:02:13 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T22:02:13.552Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T22:02:36.156Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:22:02:40 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T22:02:40.046Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:22:02:41 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T22:02:41.507Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:22:02:42 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T22:02:42.138Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:22:02:42 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T22:02:42.658Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T22:03:15.534Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T22:03:21.156Z"}
+{"user":"SANQUI2019","password":"admin","rol":"admin","level":"info","message":"","timestamp":"2019-12-14T22:03:23.365Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:22:03:23 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T22:03:23.470Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T22:03:30.761Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T22:03:47.896Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T22:03:59.436Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T22:04:06.190Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T22:04:17.667Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-14T22:04:18.165Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [14/Dec/2019:22:04:22 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 191 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-14T22:04:22.833Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-15T03:13:35.525Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-15T03:13:38.064Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [15/Dec/2019:03:13:44 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 211 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-15T03:13:44.402Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [15/Dec/2019:03:16:41 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 211 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-15T03:16:41.464Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [15/Dec/2019:03:16:42 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 211 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-15T03:16:42.116Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [15/Dec/2019:03:16:42 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 211 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-15T03:16:42.778Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [15/Dec/2019:03:16:55 +0000] \"POST /v1/auth/login HTTP/1.1\" 400 53 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-15T03:16:55.428Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [15/Dec/2019:03:17:00 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 211 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-15T03:17:00.013Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-15T03:17:17.037Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-15T03:17:24.057Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-15T03:17:31.283Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-15T03:17:46.574Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-15T03:17:51.886Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-15T03:18:00.137Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [15/Dec/2019:03:18:03 +0000] \"POST /v1/auth/login HTTP/1.1\" 500 1131 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-15T03:18:03.226Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-15T03:18:06.665Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [15/Dec/2019:03:18:12 +0000] \"POST /v1/auth/login HTTP/1.1\" 500 1131 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-15T03:18:12.679Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [15/Dec/2019:03:18:38 +0000] \"POST /v1/auth/login HTTP/1.1\" 500 1131 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-15T03:18:38.891Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-15T03:18:50.478Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-15T03:18:51.013Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-15T03:19:32.018Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [15/Dec/2019:03:19:34 +0000] \"POST /v1/auth/login HTTP/1.1\" 500 1131 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-15T03:19:34.489Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-15T03:19:56.079Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [15/Dec/2019:03:19:57 +0000] \"POST /v1/auth/login HTTP/1.1\" 400 51 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-15T03:19:57.779Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [15/Dec/2019:03:20:16 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 211 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-15T03:20:16.509Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [15/Dec/2019:10:58:15 +0000] \"POST /v1/auth/login HTTP/1.1\" 200 211 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-15T10:58:15.678Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-15T11:16:02.342Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-15T11:16:12.985Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-15T11:16:24.835Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-15T11:16:50.735Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-15T11:16:56.518Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-15T11:18:39.164Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-15T11:19:01.177Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-15T11:19:47.169Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-15T11:19:49.672Z"}
