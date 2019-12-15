@@ -21,7 +21,7 @@ export class UserController {
   createAccount(request: any, response: Response) {
     return response.send(request.query);
   }
-  @httpPost('/auth/login')
+  @httpPost('/user/auth/login')
   async login(request: Request, response: Response, next: NextFunction) {
     try {
       const apiResponse = await this.userAppSvc.login(
