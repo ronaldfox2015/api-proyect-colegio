@@ -16,24 +16,7 @@ export class UserApplicationService {
     @inject('UserRepository') private _userService: IUserRepository
   ) {}
 
-  async login(authInput: AuthInput): Promise<User> {
-    const rol: UserRoles | undefined = await this._userService.role(
-      authInput.rol()
-    );
-
-    if (typeof rol === 'undefined') {
-      throw new HttpException(400, 'el rol no existe');
-    }
-
-    const user: User | undefined = await this._userService.getByNickAndPassword(
-      authInput.user(),
-      authInput.password(),
-      authInput.rol()
-    );
-
-    if (typeof user === 'undefined') {
-      throw new HttpException(400, 'error el usuario no existe');
-    }
-    return user;
+  async create(authInput: AuthInput): Promise<User> {
+    return new User();
   }
 }
