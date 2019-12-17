@@ -17,13 +17,14 @@ export class UserController {
     @inject('AuthApplicationService') private userAppSvc: AuthApplicationService
   ) {}
 
-  @httpPost('/user')
+  @httpGet('/user')
   createAccount(request: any, response: Response) {
     return response.send(request.query);
   }
   @httpPost('/user/auth/login')
   async login(request: Request, response: Response, next: NextFunction) {
     try {
+      logger.info(request.body)
       const apiResponse = await this.userAppSvc.login(
         new AuthInput(
           request.body.user,

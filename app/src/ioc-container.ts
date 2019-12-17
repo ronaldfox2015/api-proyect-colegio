@@ -28,11 +28,6 @@ container
   .bind<IUserRepository>('UserRepository')
   .toConstantValue(UserRepositoryConst);
 
-// application
-container
-  .bind<UserApplicationService>('UserApplicationService')
-  .to(UserApplicationService)
-  .inSingletonScope();
 
 container
   .bind<AuthApplicationService>('AuthApplicationService')
