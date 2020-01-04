@@ -2528,3 +2528,317 @@
 {"user":"SANQUI2019","password":"admin","rol":"admin","level":"info","message":"","timestamp":"2019-12-16T00:01:19.301Z"}
 {"level":"info","message":"::ffff:172.24.0.4 - - [16/Dec/2019:00:01:19 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 211 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-16T00:01:19.324Z"}
 {"level":"info","message":"Starting apps...","timestamp":"2019-12-16T02:34:26.903Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-17T02:21:06.561Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-18T03:15:36.549Z"}
+{"user":"MATAPA2019","password":"admin","rol":"admin","level":"info","message":"","timestamp":"2019-12-18T03:25:14.976Z"}
+{"level":"info","message":"::ffff:172.24.0.3 - - [18/Dec/2019:03:25:14 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-18T03:25:14.994Z"}
+{"user":"AXECHI2019","password":"admin","rol":"student","level":"info","message":"","timestamp":"2019-12-18T03:27:24.637Z"}
+{"level":"info","message":"::ffff:172.24.0.3 - - [18/Dec/2019:03:27:24 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 211 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-18T03:27:24.643Z"}
+{"user":"AXECHI2019","password":"admin","rol":"student","level":"info","message":"","timestamp":"2019-12-18T03:28:14.135Z"}
+{"level":"info","message":"::ffff:172.24.0.3 - - [18/Dec/2019:03:28:14 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 211 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-18T03:28:14.139Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-19T02:51:01.580Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-23T19:46:14.959Z"}
+{"user":"AXECHI2019","password":"admin","rol":"student","level":"info","message":"","timestamp":"2019-12-23T22:11:56.670Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [23/Dec/2019:22:11:56 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 211 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-23T22:11:56.716Z"}
+{"user":"AXECHI2019","password":"admin","rol":"student","level":"info","message":"","timestamp":"2019-12-23T22:21:23.024Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [23/Dec/2019:22:21:23 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 211 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-23T22:21:23.034Z"}
+{"user":"AXECHI2019","password":"admin","rol":"student","level":"info","message":"","timestamp":"2019-12-23T22:22:08.946Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [23/Dec/2019:22:22:08 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 211 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-23T22:22:08.952Z"}
+{"user":"AXECHI2019","password":"admin","rol":"student","level":"info","message":"","timestamp":"2019-12-23T22:22:18.031Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [23/Dec/2019:22:22:18 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 211 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-23T22:22:18.038Z"}
+{"user":"AXECHI2019","password":"admin","rol":"student","level":"info","message":"","timestamp":"2019-12-23T22:24:30.630Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [23/Dec/2019:22:24:30 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 211 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-23T22:24:30.634Z"}
+{"user":"AXECHI2019","password":"admin","rol":"student","level":"info","message":"","timestamp":"2019-12-23T22:25:28.202Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [23/Dec/2019:22:25:28 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 211 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-23T22:25:28.206Z"}
+{"user":"AXECHI2019","password":"admin","rol":"student","level":"info","message":"","timestamp":"2019-12-23T22:34:22.401Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [23/Dec/2019:22:34:22 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 211 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-23T22:34:22.413Z"}
+{"user":"AXECHI2019","password":"admin","rol":"student","level":"info","message":"","timestamp":"2019-12-23T23:33:57.884Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [23/Dec/2019:23:33:57 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 211 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-23T23:33:57.887Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-24T00:00:39.357Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-24T05:01:51.619Z"}
+{"user":"AXECHI2019","password":"admin","rol":"student","level":"info","message":"","timestamp":"2019-12-24T05:14:19.441Z"}
+{"level":"info","message":"::ffff:172.24.0.3 - - [24/Dec/2019:05:14:19 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 211 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-24T05:14:19.527Z"}
+{"user":"AXECHI2019","password":"admin","rol":"student","level":"info","message":"","timestamp":"2019-12-24T05:49:20.316Z"}
+{"level":"info","message":"::ffff:172.24.0.3 - - [24/Dec/2019:05:49:20 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 211 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-24T05:49:20.322Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2019-12-28T13:43:28.942Z"}
+{"user":"AXECHI2019","password":"admin","rol":"student","level":"info","message":"","timestamp":"2019-12-28T13:44:27.541Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:13:44:27 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 211 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T13:44:27.686Z"}
+{"user":"AXECHI2019","password":"admin","rol":"student","level":"info","message":"","timestamp":"2019-12-28T13:45:43.609Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:13:45:43 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 211 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T13:45:43.614Z"}
+{"user":"AXECHI2019","password":"admin","rol":"student","level":"info","message":"","timestamp":"2019-12-28T13:59:31.264Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:13:59:31 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 211 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T13:59:31.268Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T14:34:29.103Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:14:34:29 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T14:34:29.107Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T15:06:36.672Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:15:06:36 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T15:06:36.675Z"}
+{"user":"SANQUI2019","password":"admin3","rol":"admin","level":"info","message":"","timestamp":"2019-12-28T15:07:08.374Z"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [28/Dec/2019:15:07:08 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-28T15:07:08.377Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T15:08:18.094Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:15:08:18 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T15:08:18.097Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T15:11:42.254Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:15:11:42 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T15:11:42.257Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T15:12:10.603Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:15:12:10 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T15:12:10.607Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T15:14:10.510Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:15:14:10 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T15:14:10.513Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T16:04:55.179Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:16:04:55 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T16:04:55.183Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T16:05:54.740Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:16:05:54 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T16:05:54.743Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T16:07:15.816Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:16:07:15 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T16:07:15.820Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T16:07:20.495Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:16:07:20 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T16:07:20.506Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T16:07:33.523Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:16:07:33 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T16:07:33.526Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T16:09:58.205Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:16:09:58 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T16:09:58.209Z"}
+{"user":"AXECHI2019","password":"admin222","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T16:50:35.119Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:16:50:35 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T16:50:35.123Z"}
+{"user":"AXECHI2019","password":"admin222","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T16:50:36.721Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:16:50:36 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T16:50:36.724Z"}
+{"user":"AXECHI2019","password":"admin222","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T16:50:40.944Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:16:50:40 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T16:50:40.947Z"}
+{"user":"AXECHI2019","password":"admin222","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T16:50:41.607Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:16:50:41 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T16:50:41.610Z"}
+{"user":"AXECHI2019","password":"admin222","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T16:50:42.156Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:16:50:42 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T16:50:42.160Z"}
+{"user":"AXECHI2019","password":"admin222","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T16:50:42.671Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:16:50:42 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T16:50:42.674Z"}
+{"user":"AXECHI2019","password":"admin222","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T16:51:16.368Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:16:51:16 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T16:51:16.370Z"}
+{"user":"AXECHI2019","password":"admin2223333","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T16:52:22.206Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:16:52:22 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T16:52:22.209Z"}
+{"user":"AXECHI2019","password":"admin2223333","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T16:52:23.287Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:16:52:23 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T16:52:23.290Z"}
+{"user":"AXECHI2019","password":"admin2223333","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T16:52:23.723Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:16:52:23 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T16:52:23.725Z"}
+{"user":"AXECHI2019","password":"admin2223333","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T16:52:24.152Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:16:52:24 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T16:52:24.156Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T16:53:34.277Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:16:53:34 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T16:53:34.280Z"}
+{"user":"AXECHI2019","password":"admin22","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T16:53:47.164Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:16:53:47 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T16:53:47.167Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T16:55:35.917Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:16:55:35 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T16:55:35.920Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:03:57.473Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:03:57 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:03:57.476Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:04:47.344Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:04:47 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:04:47.347Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:06:24.865Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:06:24 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:06:24.869Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:06:30.037Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:06:30 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:06:30.040Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:06:30.652Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:06:30 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:06:30.655Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:06:31.166Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:06:31 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:06:31.168Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:06:31.716Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:06:31 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:06:31.718Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:06:32.116Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:06:32 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:06:32.119Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:06:32.565Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:06:32 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:06:32.568Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:06:35.356Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:06:35 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:06:35.359Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:06:35.942Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:06:35 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:06:35.948Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:06:36.347Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:06:36 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:06:36.350Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:06:36.570Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:06:36 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:06:36.574Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:06:36.754Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:06:36 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:06:36.757Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:06:36.926Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:06:36 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:06:36.929Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:06:37.099Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:06:37 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:06:37.102Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:06:37.266Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:06:37 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:06:37.269Z"}
+{"user":"AXECHI2019","password":"","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:13:31.255Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:13:31 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:13:31.258Z"}
+{"user":"AXECHI2019","password":"","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:13:32.454Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:13:32 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:13:32.457Z"}
+{"user":"AXECHI2019","password":"","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:13:33.439Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:13:33 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:13:33.442Z"}
+{"user":"AXECHI2019","password":"","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:13:34.096Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:13:34 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:13:34.099Z"}
+{"user":"AXECHI2019","password":"","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:13:34.668Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:13:34 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:13:34.672Z"}
+{"user":"AXECHI2019","password":"","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:13:35.229Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:13:35 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:13:35.232Z"}
+{"user":"AXECHI2019","password":"","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:13:35.748Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:13:35 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:13:35.750Z"}
+{"user":"AXECHI2019","password":"","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:13:36.252Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:13:36 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:13:36.255Z"}
+{"user":"AXECHI2019","password":"","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:13:36.516Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:13:36 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:13:36.519Z"}
+{"user":"AXECHI2019","password":"","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:14:02.788Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:14:02 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:14:02.790Z"}
+{"user":"AXECHI2019","password":"","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:14:16.923Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:14:16 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:14:16.926Z"}
+{"user":"AXECHI2019","password":"","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:14:20.032Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:14:20 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:14:20.036Z"}
+{"user":"AXECHI2019","password":"","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:14:20.424Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:14:20 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:14:20.427Z"}
+{"user":"AXECHI2019","password":"","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:14:20.586Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:14:20 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:14:20.589Z"}
+{"user":"AXECHI2019","password":"","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:14:20.747Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:14:20 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:14:20.750Z"}
+{"user":"AXECHI2019","password":"","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:14:20.911Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:14:20 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:14:20.918Z"}
+{"user":"AXECHI2019","password":"","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:14:21.074Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:14:21 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:14:21.077Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:14:58.153Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:14:58 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:14:58.156Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:15:43.396Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:15:43 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:15:43.399Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:20:13.700Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:20:13 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:20:13.704Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:20:20.910Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:20:20 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:20:20.913Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:20:21.380Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:20:21 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:20:21.383Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:20:21.586Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:20:21 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:20:21.589Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:20:34.037Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:20:34 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:20:34.040Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:21:20.949Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:21:20 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:21:20.953Z"}
+{"user":"AXECHI2019","password":"","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:25:15.738Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:25:15 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:25:15.741Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:25:27.807Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:25:27 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:25:27.810Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:25:29.927Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:25:29 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:25:29.930Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:25:31.501Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:25:31 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:25:31.505Z"}
+{"user":"AXECHI2019","password":"","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:25:52.539Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:25:52 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:25:52.541Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:26:04.570Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:26:04 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:26:04.572Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:26:10.637Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:26:10 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:26:10.640Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T17:29:31.290Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:29:31 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:29:31.293Z"}
+{"user":"AXECHI2019","password":"admin","rol":"student","level":"info","message":"","timestamp":"2019-12-28T17:34:02.960Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:34:02 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 211 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:34:02.963Z"}
+{"user":"AXECHI2019","password":"admin43444","rol":"student","level":"info","message":"","timestamp":"2019-12-28T17:34:09.186Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:34:09 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:34:09.189Z"}
+{"user":"AXECHI2019","password":"admin43444","rol":"student","level":"info","message":"","timestamp":"2019-12-28T17:34:10.813Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:34:10 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:34:10.815Z"}
+{"user":"AXECHI2019","password":"admin43444","rol":"student","level":"info","message":"","timestamp":"2019-12-28T17:34:22.233Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:34:22 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:34:22.236Z"}
+{"user":"AXECHI2019","password":"admin43444","rol":"student","level":"info","message":"","timestamp":"2019-12-28T17:34:30.847Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:34:30 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:34:30.850Z"}
+{"user":"AXECHI2019","password":"admin33","rol":"student","level":"info","message":"","timestamp":"2019-12-28T17:35:35.204Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:35:35 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:35:35.207Z"}
+{"user":"AXECHI2019","password":"admin33","rol":"student","level":"info","message":"","timestamp":"2019-12-28T17:56:43.392Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:17:56:43 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T17:56:43.395Z"}
+{"user":"AXECHI2019","password":"admin33","rol":"student","level":"info","message":"","timestamp":"2019-12-28T18:00:00.499Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:18:00:00 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T18:00:00.502Z"}
+{"user":"SANQUI2019","password":"admin3","rol":"admin","level":"info","message":"","timestamp":"2019-12-28T18:02:05.184Z"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [28/Dec/2019:18:02:05 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-28T18:02:05.188Z"}
+{"user":"SANQUI2019","password":"admin3","rol":"admin","level":"info","message":"","timestamp":"2019-12-28T18:02:06.016Z"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [28/Dec/2019:18:02:06 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-28T18:02:06.020Z"}
+{"user":"AXECHI2019","password":"admin33","rol":"student","level":"info","message":"","timestamp":"2019-12-28T18:02:32.968Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:18:02:32 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T18:02:32.971Z"}
+{"user":"AXECHI2019","password":"admin3","rol":"student","level":"info","message":"","timestamp":"2019-12-28T18:04:06.736Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:18:04:06 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T18:04:06.739Z"}
+{"user":"AXECHI2019","password":"admin3","rol":"student","level":"info","message":"","timestamp":"2019-12-28T18:04:13.279Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:18:04:13 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T18:04:13.282Z"}
+{"user":"AXECHI2019","password":"admin3","rol":"student","level":"info","message":"","timestamp":"2019-12-28T18:04:14.864Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:18:04:14 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T18:04:14.866Z"}
+{"user":"AXECHI2019","password":"admin3","rol":"student","level":"info","message":"","timestamp":"2019-12-28T18:04:15.847Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:18:04:15 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T18:04:15.851Z"}
+{"user":"AXECHI2019","password":"admin3","rol":"student","level":"info","message":"","timestamp":"2019-12-28T18:04:16.540Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:18:04:16 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T18:04:16.543Z"}
+{"user":"AXECHI2019","password":"admin3333","rol":"student","level":"info","message":"","timestamp":"2019-12-28T18:04:27.265Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:18:04:27 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T18:04:27.268Z"}
+{"user":"AXECHI2019","password":"admin3333","rol":"student","level":"info","message":"","timestamp":"2019-12-28T18:04:27.960Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:18:04:27 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T18:04:27.963Z"}
+{"user":"AXECHI2019","password":"admin3333","rol":"student","level":"info","message":"","timestamp":"2019-12-28T18:04:28.471Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:18:04:28 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T18:04:28.475Z"}
+{"user":"AXECHI2019","password":"admin","rol":"student","level":"info","message":"","timestamp":"2019-12-28T18:04:43.747Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:18:04:43 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 211 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T18:04:43.750Z"}
+{"user":"AXECHI2019","password":"admin3333","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T18:05:04.677Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:18:05:04 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T18:05:04.680Z"}
+{"user":"AXECHI2019","password":"admin333","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T18:05:58.668Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:18:05:58 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T18:05:58.672Z"}
+{"user":"SANQUI2019","password":"admin","rol":"admin","level":"info","message":"","timestamp":"2019-12-28T18:07:34.621Z"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [28/Dec/2019:18:07:34 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 211 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-28T18:07:34.625Z"}
+{"user":"SANQUI2019","password":"admin23","rol":"admin","level":"info","message":"","timestamp":"2019-12-28T18:10:22.741Z"}
+{"level":"info","message":"::ffff:172.24.0.1 - - [28/Dec/2019:18:10:22 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2019-12-28T18:10:22.744Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T18:11:18.414Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:18:11:18 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T18:11:18.418Z"}
+{"user":"AXECHI2019","password":"admin333","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T18:11:38.245Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:18:11:38 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T18:11:38.249Z"}
+{"user":"AXECHI2019","password":"admin333","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T18:11:41.076Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:18:11:41 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T18:11:41.079Z"}
+{"user":"AXECHI2019","password":"admin333ww","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T18:12:17.812Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:18:12:17 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T18:12:17.815Z"}
+{"user":"AXECHI2019","password":"555admin333ww","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T18:13:06.908Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:18:13:06 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T18:13:06.911Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T18:13:49.950Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:18:13:49 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T18:13:49.953Z"}
+{"user":"AXECHI2019","password":"333admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T18:21:07.903Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:18:21:07 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T18:21:07.905Z"}
+{"user":"AXECHI2019","password":"admin33","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T18:23:22.076Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:18:23:22 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T18:23:22.080Z"}
+{"user":"AXECHI2019","password":"admin33","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T22:37:16.110Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:22:37:16 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T22:37:16.116Z"}
+{"user":"AXECHI2019","password":"admin33","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T22:37:17.847Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:22:37:17 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T22:37:17.851Z"}
+{"user":"AXECHI2019","password":"admin33","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T22:46:38.018Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:22:46:38 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T22:46:38.022Z"}
+{"user":"AXECHI2019","password":"admin33","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T22:47:29.228Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:22:47:29 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T22:47:29.231Z"}
+{"user":"AXECHI2019","password":"admin33","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T22:47:55.197Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:22:47:55 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T22:47:55.200Z"}
+{"user":"AXECHI2019","password":"admin2","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T22:48:43.152Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:22:48:43 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T22:48:43.155Z"}
+{"user":"AXECHI2019","password":"admin22","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T22:49:04.776Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:22:49:04 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T22:49:04.779Z"}
+{"user":"AXECHI2019","password":"admin33","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T23:00:16.507Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:23:00:16 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T23:00:16.509Z"}
+{"user":"AXECHI2019","password":"admin33","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T23:02:26.776Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:23:02:26 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T23:02:26.781Z"}
+{"user":"AXECHI2019","password":"admin33","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T23:02:30.120Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:23:02:30 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T23:02:30.123Z"}
+{"user":"AXECHI2019","password":"admin33","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T23:02:57.806Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:23:02:57 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T23:02:57.809Z"}
+{"user":"AXECHI2019","password":"admin33","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T23:16:38.725Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:23:16:38 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T23:16:38.727Z"}
+{"user":"AXECHI2019","password":"admin332","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T23:17:16.970Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:23:17:16 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T23:17:16.974Z"}
+{"user":"AXECHI2019","password":"222admin332","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T23:17:28.037Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:23:17:28 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T23:17:28.039Z"}
+{"user":"AXECHI2019","password":"admin22","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T23:17:59.332Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:23:17:59 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T23:17:59.334Z"}
+{"user":"AXECHI2019","password":"admin33","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T23:19:00.530Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:23:19:00 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T23:19:00.533Z"}
+{"user":"AXECHI2019","password":"3admin","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T23:21:01.435Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:23:21:01 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T23:21:01.438Z"}
+{"user":"AXECHI2019","password":"admin3","rol":"teacher","level":"info","message":"","timestamp":"2019-12-28T23:24:17.591Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [28/Dec/2019:23:24:17 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-28T23:24:17.594Z"}
+{"user":"AXECHI2019","password":"admin","rol":"student","level":"info","message":"","timestamp":"2019-12-29T14:11:28.399Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [29/Dec/2019:14:11:29 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 211 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-29T14:11:29.586Z"}
+{"user":"AXECHI2019","password":"admin","rol":"student","level":"info","message":"","timestamp":"2019-12-29T14:11:39.906Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [29/Dec/2019:14:11:39 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 211 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-29T14:11:39.951Z"}
+{"user":"AXECHI2019","password":"admin3333","rol":"student","level":"info","message":"","timestamp":"2019-12-29T14:11:50.505Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [29/Dec/2019:14:11:50 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-29T14:11:50.508Z"}
+{"user":null,"password":null,"rol":null,"level":"info","message":"","timestamp":"2019-12-29T14:16:45.980Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [29/Dec/2019:14:16:45 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 41 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-29T14:16:45.981Z"}
+{"user":null,"password":null,"rol":null,"level":"info","message":"","timestamp":"2019-12-29T14:57:32.353Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [29/Dec/2019:14:57:32 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 41 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-29T14:57:32.356Z"}
+{"user":null,"password":null,"rol":null,"level":"info","message":"","timestamp":"2019-12-29T15:26:13.890Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [29/Dec/2019:15:26:13 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 41 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-29T15:26:13.891Z"}
+{"user":"AXECHI2019","password":"admin3333","rol":"teacher","level":"info","message":"","timestamp":"2019-12-29T15:31:07.179Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [29/Dec/2019:15:31:07 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-29T15:31:07.206Z"}
+{"user":null,"password":null,"rol":null,"level":"info","message":"","timestamp":"2019-12-29T16:00:55.089Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [29/Dec/2019:16:00:55 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 41 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-29T16:00:55.091Z"}
+{"user":null,"password":null,"rol":null,"level":"info","message":"","timestamp":"2019-12-29T16:05:07.655Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [29/Dec/2019:16:05:07 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 41 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2019-12-29T16:05:07.656Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2020-01-04T14:13:31.070Z"}
+{"user":"AXECHI2019","password":"admin","rol":"student","level":"info","message":"","timestamp":"2020-01-04T14:14:41.040Z"}
+{"level":"info","message":"::ffff:172.24.0.3 - - [04/Jan/2020:14:14:41 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 211 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2020-01-04T14:14:41.092Z"}
