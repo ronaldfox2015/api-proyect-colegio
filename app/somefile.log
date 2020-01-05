@@ -2842,3 +2842,48 @@
 {"level":"info","message":"Starting apps...","timestamp":"2020-01-04T14:13:31.070Z"}
 {"user":"AXECHI2019","password":"admin","rol":"student","level":"info","message":"","timestamp":"2020-01-04T14:14:41.040Z"}
 {"level":"info","message":"::ffff:172.24.0.3 - - [04/Jan/2020:14:14:41 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 211 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2020-01-04T14:14:41.092Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2020-01-04T19:35:10.783Z"}
+{"level":"info","message":"::ffff:172.24.0.3 - - [04/Jan/2020:19:35:11 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2020-01-04T19:35:11.469Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2020-01-04T19:35:11.470Z"}
+{"level":"info","message":"::ffff:172.24.0.3 - - [04/Jan/2020:19:35:11 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2020-01-04T19:35:11.474Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2020-01-04T19:35:11.874Z"}
+{"level":"info","message":"::ffff:172.24.0.3 - - [04/Jan/2020:19:35:11 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2020-01-04T19:35:11.881Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2020-01-04T21:54:58.329Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2020-01-05T14:36:36.865Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2020-01-05T14:39:42.220Z"}
+{"user":"JORROJ2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2020-01-05T14:48:54.012Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [05/Jan/2020:14:48:54 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 207 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2020-01-05T14:48:54.031Z"}
+{"user":"JORROJ2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2020-01-05T14:49:05.786Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [05/Jan/2020:14:49:05 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 207 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2020-01-05T14:49:05.793Z"}
+{"user":"JORROJ2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2020-01-05T14:49:15.754Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [05/Jan/2020:14:49:15 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 207 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2020-01-05T14:49:15.758Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2020-01-05T16:42:43.148Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [05/Jan/2020:16:42:43 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2020-01-05T16:42:43.154Z"}
+{"user":"JORROJ2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2020-01-05T16:42:56.258Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [05/Jan/2020:16:42:56 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 207 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2020-01-05T16:42:56.261Z"}
+{"user":"JORROJ2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2020-01-05T16:42:56.667Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [05/Jan/2020:16:42:56 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 207 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2020-01-05T16:42:56.671Z"}
+{"user":"JORROJ2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2020-01-05T16:44:44.141Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [05/Jan/2020:16:44:44 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 207 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2020-01-05T16:44:44.148Z"}
+{"user":"JORROJ2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2020-01-05T16:44:45.887Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [05/Jan/2020:16:44:45 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 207 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2020-01-05T16:44:45.892Z"}
+{"user":"JORROJ2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2020-01-05T16:44:50.298Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [05/Jan/2020:16:44:50 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 207 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2020-01-05T16:44:50.302Z"}
+{"user":"JORROJ2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2020-01-05T16:44:50.779Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [05/Jan/2020:16:44:50 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 207 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2020-01-05T16:44:50.783Z"}
+{"user":"JORROJ2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2020-01-05T16:44:50.937Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [05/Jan/2020:16:44:50 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 207 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2020-01-05T16:44:50.941Z"}
+{"user":"JORROJ2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2020-01-05T16:44:51.449Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [05/Jan/2020:16:44:51 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 207 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2020-01-05T16:44:51.454Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2020-01-05T16:44:55.108Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [05/Jan/2020:16:44:55 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2020-01-05T16:44:55.114Z"}
+{"user":"JORROJ2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2020-01-05T16:45:01.221Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [05/Jan/2020:16:45:01 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 207 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2020-01-05T16:45:01.225Z"}
+{"user":"JORROJ2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2020-01-05T16:45:42.352Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [05/Jan/2020:16:45:42 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 207 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2020-01-05T16:45:42.355Z"}
+{"user":"AXECHI2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2020-01-05T16:48:08.024Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [05/Jan/2020:16:48:08 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 400 51 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2020-01-05T16:48:08.028Z"}
+{"user":"JORROJ2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2020-01-05T16:48:15.761Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [05/Jan/2020:16:48:15 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 207 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2020-01-05T16:48:15.764Z"}
+{"user":"JORROJ2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2020-01-05T16:48:44.191Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [05/Jan/2020:16:48:44 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 207 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2020-01-05T16:48:44.194Z"}
