@@ -2955,3 +2955,62 @@
 {"level":"info","message":"::ffff:172.24.0.4 - - [24/Feb/2020:03:15:03 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 207 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2020-02-24T03:15:03.919Z"}
 {"user":"JORROJ2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2020-02-24T03:15:04.148Z"}
 {"level":"info","message":"::ffff:172.24.0.4 - - [24/Feb/2020:03:15:04 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 207 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2020-02-24T03:15:04.155Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2020-02-24T03:23:15.773Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2020-02-24T03:30:33.208Z"}
+{"user":"JORROJ2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2020-02-25T05:02:56.774Z"}
+{"level":"info","message":"::ffff:172.24.0.2 - - [25/Feb/2020:05:02:57 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 500 12 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2020-02-25T05:02:57.508Z"}
+{"user":"JORROJ2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2020-02-25T05:02:59.164Z"}
+{"level":"info","message":"::ffff:172.24.0.2 - - [25/Feb/2020:05:02:59 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 500 12 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2020-02-25T05:02:59.165Z"}
+{"user":"JORROJ2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2020-02-25T05:05:58.783Z"}
+{"level":"info","message":"::ffff:172.24.0.2 - - [25/Feb/2020:05:05:58 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 500 12 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2020-02-25T05:05:58.783Z"}
+{"user":"JORROJ2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2020-02-25T05:08:44.409Z"}
+{"level":"info","message":"::ffff:172.24.0.2 - - [25/Feb/2020:05:08:44 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 500 12 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2020-02-25T05:08:44.410Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2020-02-25T05:09:27.849Z"}
+{"user":"JORROJ2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2020-02-25T05:09:50.305Z"}
+{"level":"info","message":"::ffff:172.24.0.2 - - [25/Feb/2020:05:09:53 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 207 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2020-02-25T05:09:53.001Z"}
+{"user":"JORROJ2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2020-02-25T05:09:53.343Z"}
+{"level":"info","message":"::ffff:172.24.0.2 - - [25/Feb/2020:05:09:53 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 207 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2020-02-25T05:09:53.351Z"}
+{"user":"JORROJ2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2020-02-25T05:09:53.403Z"}
+{"level":"info","message":"::ffff:172.24.0.2 - - [25/Feb/2020:05:09:53 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 207 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2020-02-25T05:09:53.407Z"}
+{"user":"JORROJ2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2020-02-25T05:09:54.050Z"}
+{"level":"info","message":"::ffff:172.24.0.2 - - [25/Feb/2020:05:09:54 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 207 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2020-02-25T05:09:54.054Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2020-03-21T12:54:58.294Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2020-03-21T16:29:49.898Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2020-03-21T17:08:34.244Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2020-03-21T17:09:52.300Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2020-03-21T17:12:06.614Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [21/Mar/2020:17:12:43 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2020-03-21T17:12:43.473Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [21/Mar/2020:17:12:48 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2020-03-21T17:12:48.687Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [21/Mar/2020:17:12:48 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://local.webcolegio.com/\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2020-03-21T17:12:48.738Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [21/Mar/2020:17:12:49 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2020-03-21T17:12:49.044Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [21/Mar/2020:17:12:49 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2020-03-21T17:12:49.233Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [21/Mar/2020:17:12:49 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2020-03-21T17:12:49.386Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [21/Mar/2020:17:12:49 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2020-03-21T17:12:49.522Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [21/Mar/2020:17:12:49 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2020-03-21T17:12:49.658Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2020-03-21T17:13:53.802Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [21/Mar/2020:17:14:21 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2020-03-21T17:14:21.442Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [21/Mar/2020:17:14:21 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2020-03-21T17:14:21.890Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [21/Mar/2020:17:14:22 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2020-03-21T17:14:22.045Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [21/Mar/2020:17:14:22 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2020-03-21T17:14:22.202Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [21/Mar/2020:17:14:22 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2020-03-21T17:14:22.338Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [21/Mar/2020:17:14:22 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2020-03-21T17:14:22.457Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [21/Mar/2020:17:14:22 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2020-03-21T17:14:22.561Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2020-03-21T17:14:55.495Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [21/Mar/2020:17:15:20 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2020-03-21T17:15:20.225Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [21/Mar/2020:17:15:20 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2020-03-21T17:15:20.636Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [21/Mar/2020:17:15:20 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2020-03-21T17:15:20.812Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [21/Mar/2020:17:15:20 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2020-03-21T17:15:20.925Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [21/Mar/2020:17:15:21 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2020-03-21T17:15:21.052Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [21/Mar/2020:17:15:21 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2020-03-21T17:15:21.181Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [21/Mar/2020:17:15:21 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2020-03-21T17:15:21.324Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [21/Mar/2020:17:15:21 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2020-03-21T17:15:21.462Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [21/Mar/2020:17:15:21 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2020-03-21T17:15:21.605Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [21/Mar/2020:17:15:21 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2020-03-21T17:15:21.733Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [21/Mar/2020:17:17:08 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2020-03-21T17:17:08.296Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [21/Mar/2020:17:17:08 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2020-03-21T17:17:08.768Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [21/Mar/2020:17:17:08 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2020-03-21T17:17:08.895Z"}
+{"level":"info","message":"::ffff:172.30.0.1 - - [21/Mar/2020:17:17:09 +0000] \"GET / HTTP/1.1\" 404 139 \"-\" \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.132 Safari/537.36\"\n","timestamp":"2020-03-21T17:17:09.035Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2020-03-21T17:18:20.845Z"}
+{"level":"info","message":"Starting apps...","timestamp":"2020-03-21T18:27:06.582Z"}
+{"user":"JORROJ2019","password":"admin","rol":"teacher","level":"info","message":"","timestamp":"2020-03-21T18:40:50.483Z"}
+{"level":"info","message":"::ffff:172.24.0.4 - - [21/Mar/2020:18:40:50 +0000] \"POST /v1/user/auth/login HTTP/1.1\" 200 207 \"-\" \"GuzzleHttp/6.3.3 curl/7.52.1 PHP/7.2.18\"\n","timestamp":"2020-03-21T18:40:50.514Z"}
