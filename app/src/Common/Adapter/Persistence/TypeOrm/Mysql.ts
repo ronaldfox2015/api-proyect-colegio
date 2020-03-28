@@ -4,7 +4,8 @@ import {
   createConnection,
   Entity,
   EntityManager,
-  Repository
+  Repository,
+  getConnectionManager
 } from 'typeorm';
 import { logger } from '../../../../Utils';
 
@@ -38,6 +39,13 @@ export class Mysql {
    */
   async getConnection(): Promise<Connection> {
     const connection = await createConnection(this.connectionParameters);
+    return connection;
+  }
+
+  async createConnection(): Promise<Connection> {
+    const connectionManager = getConnectionManager();
+    const connection = connectionManager.create(this.connectionParameters);
+    await connection.connect();
     return connection;
   }
 }

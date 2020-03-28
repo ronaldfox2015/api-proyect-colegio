@@ -39,5 +39,11 @@
   "cSpell.language": "en,es",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "workbench.iconTheme": "vscode-icons",
-  "cSpell.userWords": ["Fastify", "nestjs"]
+  "cSpell.userWords": [
+    "Fastify",
+    "nestjs"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
 }
