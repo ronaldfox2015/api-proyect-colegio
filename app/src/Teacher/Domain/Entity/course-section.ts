@@ -1,18 +1,16 @@
-import { Column, Entity, ManyToOne, PrimaryGeneratedColumn } from 'typeorm';
+import {
+  Column,
+  Entity,
+  JoinColumn,
+  ManyToOne,
+  PrimaryGeneratedColumn,
+  ManyToMany
+} from 'typeorm';
+import { Course } from './course';
 import { Section } from './seccion';
 
 @Entity('tb_curso_seccion')
 export class CourseSection {
-  @PrimaryGeneratedColumn({
-    name: 'idCurso'
-  })
-  courseId: number;
-
-  @PrimaryGeneratedColumn({
-    name: 'idSeccion'
-  })
-  sectionId: number;
-
   @Column({
     name: 'idDocente'
   })
@@ -26,7 +24,17 @@ export class CourseSection {
   // tslint:disable-next-line: arrow-parens
   @ManyToOne(
     type => Section,
-    section => section.courseSection
+    section => section.id
   )
+  @PrimaryGeneratedColumn({ name: 'idSeccion' })
+  @JoinColumn({ name: 'idSeccion' })
   section: Section;
+
+  @ManyToOne(
+    type => Course,
+    course => course.id
+  )
+  @PrimaryGeneratedColumn({ name: 'idCurso' })
+  @JoinColumn({ name: 'idCurso' })
+  course: Course;
 }

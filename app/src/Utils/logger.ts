@@ -2,7 +2,7 @@ import * as winston from 'winston';
 
 const logger = new winston.Logger({
   transports: [
-    new(winston.transports.File)({ filename: 'somefile.log' }),
+    new winston.transports.File({ filename: 'somefile.log' }),
     new winston.transports.Console({
       colorize: true,
       json: true
@@ -12,7 +12,7 @@ const logger = new winston.Logger({
 
 logger.stream = {
   write(message, encoding) {
-    logger.info(message);
+    //logger.info(message);
   }
 };
 

@@ -1,4 +1,5 @@
-import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
+import { Column, Entity, OneToMany, PrimaryGeneratedColumn } from 'typeorm';
+import { CourseSection } from './course-section';
 
 @Entity('tb_curso')
 export class Course {
@@ -15,5 +16,11 @@ export class Course {
   @Column({
     name: 'estado'
   })
-  status: string;
+  status: number;
+
+  @OneToMany(
+    type => CourseSection,
+    courseSection => courseSection.course
+  ) // note: we will create author property in the Photo class below
+  courseSection: CourseSection[];
 }

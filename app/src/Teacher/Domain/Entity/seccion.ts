@@ -25,7 +25,7 @@ export class Section {
 
   @OneToMany(
     type => CourseSection,
-    courseSection => courseSection.section
+    sectionCourse => sectionCourse.section
   ) // note: we will create author property in the Photo class below
-  courseSection: CourseSection[];
+  sectionCourse: CourseSection[];
 }

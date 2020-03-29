@@ -9,7 +9,7 @@ export const AppConfig = {
       dialect: 'mysql',
       type: 'mysql',
       port: 3306,
-      //  logging: true,
+      logging: ['query', 'error'],
       entities: []
     }
   },

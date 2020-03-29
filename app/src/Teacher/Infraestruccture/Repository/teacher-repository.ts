@@ -15,20 +15,40 @@ export class TeacherRepository implements ITeacherRepository {
   constructor(@inject('Mysql') private mysql: Mysql) {
     this.connection = this.mysql.getConnection();
   }
-
-  public async all(): Promise<any> {
-    //let response = await this.mysql.getConnection();
+  public async all(): Promise<CourseSection[]> {
+    return [];
+  }
+  public async getCourseByGrade(id: number): Promise<CourseSection[]> {
     return this.connection
       .then(async (response: Connection) => {
-        let dto = response
+        const rest = await response
           .getRepository(CourseSection)
-          .createQueryBuilder('CourseSection')
-          .select(['section', 'c'])
-          .innerJoin('c.section', 'section', 'c.idSeccion = section.idSeccion')
-          //  .where(`c.idDocente=:teacherId`, { teacherId })
-          .getOne();
-        console.log(dto);
-        return dto;
+          .createQueryBuilder('c')
+          .select(['section', 'course', 'c'])
+          .innerJoin('c.section', 'section')
+          .innerJoin('c.course', 'course')
+          .where(`c.idDocente=:id`, { id })
+          .getMany();
+        return rest;
+      })
+      .catch(error => {
+        throw new MysqlException(error.sqlMessage);
+      });
+  }
+
+  public async getCourseBySection(id: number): Promise<CourseSection[]> {
+    return this.connection
+      .then(async (response: Connection) => {
+        const rest = await response
+          .getRepository(CourseSection)
+          .createQueryBuilder('c')
+          .select(['section', 'course', 'c'])
+          .innerJoin('c.section', 'section')
+          .innerJoin('c.course', 'course')
+          .where(`c.idDocente=:id`, { id })
+          .groupBy('c.section.id')
+          .getMany();
+        return rest;
       })
       .catch(error => {
         throw new MysqlException(error.sqlMessage);

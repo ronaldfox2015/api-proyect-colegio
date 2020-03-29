@@ -9,6 +9,9 @@ import { AuthApplicationService } from './User/Application/AuthApplicationServic
 import { UserApplicationService } from './User/Application/UserApplicationService';
 import { User } from './User/Domain/Entity/User';
 import { UserRoles } from './User/Domain/Entity/UserRoles';
+import { CourseSection } from './Teacher/Domain/Entity/course-section';
+import { Section } from './Teacher/Domain/Entity/seccion';
+
 import { TeacherApplicationService } from './Teacher/Application/teacher-application-service';
 
 // domain
@@ -22,11 +25,14 @@ import { TeacherRepository } from './Teacher/Infraestruccture/Repository/teacher
 // controller
 import { UserController } from './Web/Rest/user.controller';
 import { TeacherController } from './Web/Rest/teacher.controller';
+import { Course } from './Teacher/Domain/Entity/course';
+import { CourseHydrator } from './Teacher/Application/Hydrators/course.hydrator';
+import { SectionHydrator } from './Teacher/Application/Hydrators/section.hydrator';
 
 const container = new Container();
 const mysqlConfig = AppConfig.bd.mysql;
 const jwtConfig = AppConfig.jwtConfig;
-mysqlConfig.entities = [User, UserRoles];
+mysqlConfig.entities = [User, UserRoles, CourseSection, Section, Course];
 const TypeOrmMYSQL = new Mysql(AppConfig.bd.mysql);
 // infraestructura
 container.bind<Mysql>('Mysql').toConstantValue(TypeOrmMYSQL);
@@ -48,6 +54,15 @@ container
   .to(AuthApplicationService)
   .inSingletonScope();
 
+container
+  .bind<CourseHydrator>('CourseHydrator')
+  .to(CourseHydrator)
+  .inSingletonScope();
+
+container
+  .bind<SectionHydrator>('SectionHydrator')
+  .to(SectionHydrator)
+  .inSingletonScope();
 container
   .bind<TeacherApplicationService>('TeacherApplicationService')
   .to(TeacherApplicationService)

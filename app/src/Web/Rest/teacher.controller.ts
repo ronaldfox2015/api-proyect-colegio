@@ -20,8 +20,19 @@ export class TeacherController {
 
   @httpGet('/teacher/:id/courses')
   async getCourses(request: Request, response: Response) {
-    console.log(request.param('id'));
-    const rps = await this.teacherAppSvc.getByIdCourse(request.param('id'));
+    const rps = await this.teacherAppSvc.getByIdCourse(
+      // tslint:disable-next-line: radix
+      parseInt(request.params.id)
+    );
+    return response.send(rps);
+  }
+
+  @httpGet('/teacher/:id/section')
+  async getSection(request: Request, response: Response) {
+    const rps = await this.teacherAppSvc.getByIdSection(
+      // tslint:disable-next-line: radix
+      parseInt(request.params.id)
+    );
     return response.send(rps);
   }
 }

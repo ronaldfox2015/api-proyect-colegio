@@ -1,7 +1,7 @@
 {
   "editor.renderWhitespace": "all",
   "editor.fontSize": 14,
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 2,
   "prettier.singleQuote": true,
   "editor.fontLigatures": true,
   "typescript.check.tscVersion": false,
